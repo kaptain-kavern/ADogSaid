@@ -85,10 +85,11 @@
         </techHediffsTags>
     </ThingDef>
 
+
     <ThingDef ParentName="BodyPartArtificialBase">
         <defName>SimpleProstheticLegAnimalSmall</defName>
-        <label>simple prosthetic animal leg (small)</label>
-        <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient. Fits boorats, chickens, chinchillas, cobras, hares, iguanas, megascarabs, monkeys, squirrels, tortoises and yorkshire terriers.</description>
+        <label>simple prosthetic animal leg</label>
+        <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient.</description>
         <graphicData>
             <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -100,6 +101,9 @@
             <MarketValue>100</MarketValue>
         </statBases>
     </ThingDef>
+
+<!-- Sized Animal Prosthetics ........ To be done .....
+
 
     <ThingDef ParentName="BodyPartArtificialBase">
         <defName>SimpleProstheticLegAnimalMedium</defName>
@@ -149,10 +153,15 @@
         </statBases>
     </ThingDef>
 
+
+
+-->
+
+
     <ThingDef ParentName="BodyPartArtificialBase">
         <defName>BionicLegAnimalSmall</defName>
-        <label>bionic animal leg (small)</label>
-        <description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength. Fits boorats, chickens, chinchillas, cobras, hares, iguanas, megascarabs, monkeys, squirrels, tortoises and yorkshire terriers.</description>
+        <label>bionic animal leg</label>
+        <description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength. </description>
         <graphicData>
             <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -164,6 +173,13 @@
             <MarketValue>400</MarketValue>
         </statBases>
     </ThingDef>
+
+
+
+                                    <!-- Sized Animal Bionics ........ To be done .....
+
+
+
 
     <ThingDef ParentName="BodyPartArtificialBase">
         <defName>BionicLegAnimalMedium</defName>
@@ -212,5 +228,5 @@
             <MarketValue>3200</MarketValue>
         </statBases>
     </ThingDef>
-
+                                                -->
 </ThingDefs>

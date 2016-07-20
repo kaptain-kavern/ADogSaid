@@ -55,13 +55,20 @@
       <li>InstallSimpleProstheticArmAnimal</li>
       <li>InstallPegLegAnimal</li>
       <li>InstallBionicLegAnimalSmall</li>
+
+  <!--  Sized Animal Bionics          Not implemented yet  
+
       <li>InstallBionicLegAnimalMedium</li>
       <li>InstallBionicLegAnimalLarge</li>
-      <li>InstallBionicLegAnimalHuge</li>
+      <li>InstallBionicLegAnimalHuge</li>    -->
+
       <li>InstallSimpleProstheticLegAnimalSmall</li>
+
+  <!--  Sized Animal Prosthetics            Not implemented yet  
+
       <li>InstallSimpleProstheticLegAnimalMedium</li>
       <li>InstallSimpleProstheticLegAnimalLarge</li>
-      <li>InstallSimpleProstheticLegAnimalHuge</li>
+      <li>InstallSimpleProstheticLegAnimalHuge</li>  -->
     </recipes>
   </ThingDef>
 

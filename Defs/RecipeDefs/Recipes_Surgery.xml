@@ -195,7 +195,7 @@
         <addsHediff>BionicLeg</addsHediff>
     </RecipeDef>
 
-    <RecipeDef ParentName="BionicLegBase">
+		<RecipeDef ParentName="BionicLegBase">
         <defName>InstallBionicLegAnimalSmall</defName>
         <ingredients>
             <li>
@@ -224,6 +224,10 @@
             </thingDefs>
         </fixedIngredientFilter>        
     </RecipeDef>
+
+<!-- Install different sizes of bionics leg  -->
+				<!-- desactived for now -->
+<!--
 
     <RecipeDef ParentName="BionicLegBase">
         <defName>InstallBionicLegAnimalMedium</defName>
@@ -315,6 +319,11 @@
         </fixedIngredientFilter>        
     </RecipeDef>
 
+    													-->
+
+
+
+
     <RecipeDef Abstract="True" Name="SimpleLegBase" ParentName="LegBase">
         <label>install simple prosthetic animal leg</label>
         <description>Installs simple prosthetic animal leg.</description>
@@ -351,10 +360,14 @@
             <thingDefs>
                 <li>SimpleProstheticLegAnimalSmall</li>
             </thingDefs>
-        </fixedIngredientFilter>
-        
+        </fixedIngredientFilter>        
     </RecipeDef>
 
+
+    <!-- Install different sizes of bionics leg  -->
+				<!-- desactived for now -->
+	<!-- 
+       
     <RecipeDef ParentName="SimpleLegBase">
         <defName>InstallSimpleProstheticLegAnimalMedium</defName>
         <ingredients>
@@ -444,5 +457,5 @@
             </thingDefs>
         </fixedIngredientFilter>
     </RecipeDef> 
-
+								-->
 </RecipeDefs>
