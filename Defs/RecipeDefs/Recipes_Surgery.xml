@@ -147,6 +147,8 @@
             <li>MiddleRightInsectLeg</li>
             <li>RearLeftInsectLeg</li>
             <li>RearRightInsectLeg</li>
+            <li>LeftLeg</li>
+            <li>RightLeg</li>
         </appliedOnFixedBodyParts>
     </RecipeDef>
 
