@@ -24,20 +24,14 @@
     <pathCost>10</pathCost>
   </ThingDef>
 
-  <ThingDef ParentName="BodyPartBase" Name="BodyPartNaturalBase" Abstract="True">
+  <ThingDef ParentName="BodyPartBase" Name="BodyPartAnimalArtificialBase" Abstract="True">
     <thingCategories>
-      <li>BodyPartsNatural</li>
-    </thingCategories>
-  </ThingDef>
-
-  <ThingDef ParentName="BodyPartBase" Name="BodyPartArtificialBase" Abstract="True">
-    <thingCategories>
-      <li>BodyPartsArtificial</li>
+      <li>BodyPartsAnimalArtificial</li>
     </thingCategories>
   </ThingDef>
   
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>BionicEyeAnimal</defName>
         <label>animal bionic eye</label>
         <description>Advanced piece of technology made not only to fully replace natural eye, but also to give supernatural vision abilities. Fits all kinds of animals except megascarabs.</description>
@@ -53,7 +47,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>SimpleProstheticArmAnimal</defName>
         <label>simple prosthetic animal arm</label>
         <description>Simple but durable arm prosthesis. Fits monkeys.</description>
@@ -69,7 +63,7 @@
         </techHediffsTags>
     </ThingDef>
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>BionicArmAnimal</defName>
         <label>bionic animal arm</label>
         <description>One of the most sophisticated arm replacements. Gives extreme strength to its user. Fits monkeys.</description>
@@ -86,7 +80,7 @@
     </ThingDef>
 
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>SimpleProstheticLegAnimalSmall</defName>
         <label>simple prosthetic animal leg</label>
         <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient.</description>
@@ -105,7 +99,7 @@
 <!-- Sized Animal Prosthetics ........ To be done .....
 
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>SimpleProstheticLegAnimalMedium</defName>
         <label>simple prosthetic animal leg (medium)</label>
         <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient. Fits alpacas, alpha beavers, capybaras, huskies, labrador retrievers, pigs, wargs and boars.</description>
@@ -121,7 +115,7 @@
         </statBases>
     </ThingDef>
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>SimpleProstheticLegAnimalLarge</defName>
         <label>simple prosthetic animal leg (large)</label>
         <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient. Fits boomalopes, cows, deers, dromedaries and elks.</description>
@@ -137,7 +131,7 @@
         </statBases>
     </ThingDef>
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>SimpleProstheticLegAnimalHuge</defName>
         <label>simple prosthetic animal leg (huge)</label>
         <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient. Fits elephants, muffaloes, rhinoceroses and thrumboes.</description>
@@ -158,7 +152,7 @@
 -->
 
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>BionicLegAnimalSmall</defName>
         <label>bionic animal leg</label>
         <description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength. </description>
@@ -181,7 +175,7 @@
 
 
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>BionicLegAnimalMedium</defName>
         <label>bionic animal leg (medium)</label>
         <description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength. Fits alpacas, alpha beavers, capybaras, huskies, labrador retrievers, pigs, wargs and boars.</description>
@@ -197,7 +191,7 @@
         </statBases>
     </ThingDef>
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>BionicLegAnimalLarge</defName>
         <label>bionic animal leg (large)</label>
         <description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength. Fits boomalopes, cows, deers, dromedaries and elks.</description>
@@ -213,7 +207,7 @@
         </statBases>
     </ThingDef>
 
-    <ThingDef ParentName="BodyPartArtificialBase">
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>BionicLegAnimalHuge</defName>
         <label>bionic animal leg (huge)</label>
         <description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength. Fits elephants, muffaloes, rhinoceroses and thrumboes.</description>
