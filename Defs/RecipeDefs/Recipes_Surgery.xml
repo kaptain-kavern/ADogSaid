@@ -130,7 +130,87 @@
         </appliedOnFixedBodyParts>
         <addsHediff>SimpleProstheticArm</addsHediff>
     </RecipeDef>
-
+	
+	
+    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallJawAnimal</defName>
+        <label>install animal Jaw</label>
+        <description>Installs animal jaw.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing animal jaw.</jobString>
+        <workAmount>2000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>JawAnimal</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>JawAnimal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Jaw</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>JawAnimal</addsHediff>
+    </RecipeDef>
+	
+	
+	    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallSpineAnimal</defName>
+        <label>install animal spine</label>
+        <description>Installs animal spine.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing animal spine.</jobString>
+        <workAmount>2000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SpineAnimal</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>SpineAnimal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Spine</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>SpineAnimal</addsHediff>
+    </RecipeDef>
+	
 <!-- ========================= Legs ======================== -->
 
     <RecipeDef Abstract="True" Name="LegBase" ParentName="SurgeryFlesh">
