@@ -95,6 +95,41 @@
             <MarketValue>100</MarketValue>
         </statBases>
     </ThingDef>
+	
+	
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+        <defName>JawAnimal</defName>
+        <label>Animal Jaw</label>
+        <description>Functional jaw for animals, better than denture.</description>
+        <graphicData>
+            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+        <statBases>
+            <MarketValue>300</MarketValue>
+        </statBases>
+    </ThingDef>
+	
+	
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
+        <defName>SpineAnimal</defName>
+        <label>Animal Spine</label>
+        <description>Spine for animals</description>
+        <graphicData>
+            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techHediffsTags>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <statBases>
+            <MarketValue>650</MarketValue>
+        </statBases>
+    </ThingDef>
+	
 
 <!-- Sized Animal Prosthetics ........ To be done .....
 
