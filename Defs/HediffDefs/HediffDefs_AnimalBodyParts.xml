@@ -11,7 +11,7 @@
    
    <!-- Added body parts -->
    
-   <HediffDef ParentName="addedPartBionics">
+   <HediffDef ParentName="addedPartAnimal">
       <defName>JawAnimal</defName>
       <label>animal jaw implant</label>
       <spawnThingOnRemoved>JawAnimal</spawnThingOnRemoved>
@@ -35,7 +35,7 @@
    </HediffDef>
    
    
-   <HediffDef ParentName="addedPartBionics">
+   <HediffDef ParentName="addedPartAnimal">
       <defName>SpineAnimal</defName>
       <label>animal spine</label>
       <spawnThingOnRemoved>SpineAnimal</spawnThingOnRemoved>
@@ -59,7 +59,7 @@
    </HediffDef>
    
    
-   <HediffDef ParentName="addedPartBionics">
+   <HediffDef ParentName="addedPartAnimal">
       <defName>EarAnimal</defName>
       <label>animal ear implant</label>
       <spawnThingOnRemoved>EarAnimal</spawnThingOnRemoved>
