@@ -36,7 +36,7 @@
         <label>animal bionic eye</label>
         <description>Advanced piece of technology made not only to fully replace natural eye, but also to give supernatural vision abilities. Fits all kinds of animals except megascarabs.</description>
         <graphicData>
-            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -52,7 +52,7 @@
         <label>simple prosthetic animal arm</label>
         <description>Simple but durable arm prosthesis. Fits monkeys.</description>
         <graphicData>
-            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -68,7 +68,7 @@
         <label>bionic animal arm</label>
         <description>One of the most sophisticated arm replacements. Gives extreme strength to its user. Fits monkeys.</description>
         <graphicData>
-            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
@@ -85,7 +85,7 @@
         <label>simple prosthetic animal leg</label>
         <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient.</description>
         <graphicData>
-            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <techHediffsTags>
@@ -102,7 +102,7 @@
         <label>Animal Jaw</label>
         <description>Functional jaw for animals.</description>
         <graphicData>
-            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <techHediffsTags>
@@ -119,7 +119,7 @@
         <label>Animal Spine</label>
         <description>Spine for animals.</description>
         <graphicData>
-            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <techHediffsTags>
@@ -192,7 +192,7 @@
         <label>bionic animal leg</label>
         <description>Bionic leg uses cutting-edge technology to give its owner extreme walking comfort and strength. </description>
         <graphicData>
-            <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <techHediffsTags>
