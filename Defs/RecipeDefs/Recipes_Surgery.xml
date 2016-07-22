@@ -167,6 +167,7 @@
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>Jaw</li>
+			<li>Beak</li>
         </appliedOnFixedBodyParts>
         <addsHediff>JawAnimal</addsHediff>
     </RecipeDef>
@@ -209,6 +210,47 @@
             <li>Spine</li>
         </appliedOnFixedBodyParts>
         <addsHediff>SpineAnimal</addsHediff>
+    </RecipeDef>
+	
+	
+		    <RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallEarAnimal</defName>
+        <label>install animal ear implant</label>
+        <description>Installs animal ear implant.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing animal ear implant.</jobString>
+        <workAmount>2000</workAmount>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EarAnimal</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>EarAnimal</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>LeftEar</li>
+			<li>RightEar</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>EarAnimal</addsHediff>
     </RecipeDef>
 	
 <!-- ========================= Legs ======================== -->

@@ -58,4 +58,24 @@
       </stages>
    </HediffDef>
    
+   
+   <HediffDef ParentName="addedPartBionics">
+      <defName>EarAnimal</defName>
+      <label>animal ear implant</label>
+      <spawnThingOnRemoved>EarAnimal</spawnThingOnRemoved>
+      <addedPartProps>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+      <stages>
+		<li>
+         <capMods>
+            <li>
+               <capacity>Hearing</capacity>
+               <offset>0.1</offset>
+            </li>
+         </capMods>
+		</li>	 
+      </stages>
+   </HediffDef>
+   
 </Defs>

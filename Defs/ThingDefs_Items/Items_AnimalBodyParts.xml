@@ -130,6 +130,23 @@
         </statBases>
     </ThingDef>
 	
+	
+	 <ThingDef ParentName="BodyPartAnimalArtificialBase">
+        <defName>EarAnimal</defName>
+        <label>Animal Ear Implant</label>
+        <description>Ear implant for animals.</description>
+        <graphicData>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techHediffsTags>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <statBases>
+            <MarketValue>550</MarketValue>
+        </statBases>
+    </ThingDef>
+	
 
 <!-- Sized Animal Prosthetics ........ To be done .....
 
