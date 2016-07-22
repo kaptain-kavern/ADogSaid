@@ -55,6 +55,8 @@
       <li>InstallSimpleProstheticArmAnimal</li>
       <li>InstallPegLegAnimal</li>
       <li>InstallBionicLegAnimalSmall</li>
+	  <li>InstallJawAnimal</li>
+	  <li>InstallSpineAnimal</li>
 
   <!--  Sized Animal Bionics          Not implemented yet  
 
