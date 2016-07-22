@@ -134,7 +134,7 @@
 	
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>InstallJawAnimal</defName>
-        <label>install animal Jaw</label>
+        <label>install animal jaw</label>
         <description>Installs animal jaw.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
         <jobString>Installing animal jaw.</jobString>

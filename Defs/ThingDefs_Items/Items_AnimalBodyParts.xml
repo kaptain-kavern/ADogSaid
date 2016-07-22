@@ -100,7 +100,7 @@
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>JawAnimal</defName>
         <label>Animal Jaw</label>
-        <description>Functional jaw for animals, better than denture.</description>
+        <description>Functional jaw for animals.</description>
         <graphicData>
             <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -117,7 +117,7 @@
     <ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>SpineAnimal</defName>
         <label>Animal Spine</label>
-        <description>Spine for animals</description>
+        <description>Spine for animals.</description>
         <graphicData>
             <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
             <graphicClass>Graphic_Single</graphicClass>
