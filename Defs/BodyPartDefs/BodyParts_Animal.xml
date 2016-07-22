@@ -278,18 +278,19 @@
     <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
     <skinCovered>true</skinCovered>
     <activities>
-      <li>Hearing_leftWay</li>
+      <li>Hearing_source</li>
     </activities>
   </BodyPartDef>
   
   <BodyPartDef>
     <defName>RightEar</defName>
     <label>right ear</label>
-    <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <hitPoints>10</hitPoints>
+	<frostbiteVulnerability>1.5</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>true</skinCovered>
     <activities>
-      <li>Hearing_rightWay</li>
+      <li>Hearing_source</li>
     </activities>
   </BodyPartDef>
 
