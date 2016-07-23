@@ -25,3 +25,8 @@ Simple parts are slightly lower in efficiency than natural parts. Bionic parts a
 Simple/ bionic legs, arms and jaws do melee damage now, depending on type.
 
 All parts need medicine skill now to be installed. Simple parts need a skill from 4-6. Bionic parts need a skill form 8-10.
+
+## Mod Team:
+* kaptain_kavern (code)
+* spoonshortage (code and textures)
+* nattiejim (code and publishing)
