@@ -5,18 +5,18 @@ This mod is *fully compatible* with **Expanded Prosthetics and Organ Engineering
 
 Following parts are added to the game:
 
-* bionic animal eyes. Fits all animals. 
-* simple/bionic animal jaws. Fits all animals. 
 * animal brain stimulator. Fits all animals.
-* simple/bionic animal spine. Fits all animals.
+* bionic animal eyes. Fits all animals. 
 * simple/bionic animal ears. Fits all animals.
-* simple prosthetic animal arm. Fits monkey and megatherium.
-* bionic animal arm. Fits monkey and megatherium.
-* pegleg. Can be crafted with 1 wood. Fits all animals. Least efficiency.
-* simple prosthetic animal leg. Fits all animals.
-* bionic animal leg. Fits all animals.
+* simple/bionic animal jaw. Fits all animals. 
+* simple/bionic animal spine. Fits all animals.
+* simple prosthetic animal arms. Fits monkey and megatherium.
+* bionic animal arms. Fits monkey and megatherium.
 * bionic animal heart. Fits all animals.
 * bionic animal lung. Fits all animals.
+* peglegs. Can be crafted with 1 wood. Fits all animals. Least efficiency.
+* simple prosthetic animal legs. Fits all animals.
+* bionic animal legs. Fits all animals.
 
 All parts can be obtained from traders, except pegleg.
 
