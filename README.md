@@ -19,3 +19,4 @@ Following parts are added to the game:
 All parts can be obtained from traders, except pegleg.
 Simple parts are slightly lower in efficiency than natural parts. Bionic parts are higher.
 Simple/ bionic legs, arms and jaws do melee damage now, depending on type.
+All parts need medicine skill now to be installed. Simple parts need a skill from 4-6. Bionic parts need a skill form 8-10.
