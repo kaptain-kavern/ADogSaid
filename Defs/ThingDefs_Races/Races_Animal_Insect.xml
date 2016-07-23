@@ -27,7 +27,7 @@
       <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
+      <LeatherAmount>3</LeatherAmount>
     </statBases>
     <verbs>
       <li>
