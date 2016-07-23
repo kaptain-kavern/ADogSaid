@@ -54,10 +54,16 @@
       <li>InstallBionicArmAnimal</li>
       <li>InstallSimpleProstheticArmAnimal</li>
       <li>InstallPegLegAnimal</li>
-      <li>InstallBionicLegAnimalSmall</li>
-	  <li>InstallJawAnimal</li>
-	  <li>InstallSpineAnimal</li>
-	  <li>InstallEarAnimal</li>
+      <li>InstallBionicLegAnimal</li>
+	  <li>InstallJawAnimalSimple</li>
+	  <li>InstallJawAnimalBionic</li>
+	  <li>InstallSpineAnimalSimple</li>
+	  <li>InstallSpineAnimalBionic</li>
+	  <li>InstallEarAnimalSimple</li>
+	  <li>InstallEarAnimalBionic</li>
+	  <li>InstallAnimalBrainStimulator</li>
+	  <li>InstallBionicAnimalHeart</li>
+	  <li>InstallBionicAnimalLung</li>
 
   <!--  Sized Animal Bionics          Not implemented yet  
 
@@ -65,7 +71,7 @@
       <li>InstallBionicLegAnimalLarge</li>
       <li>InstallBionicLegAnimalHuge</li>    -->
 
-      <li>InstallSimpleProstheticLegAnimalSmall</li>
+      <li>InstallSimpleProstheticLegAnimal</li>
 
   <!--  Sized Animal Prosthetics            Not implemented yet  
 

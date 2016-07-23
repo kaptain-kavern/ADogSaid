@@ -14,10 +14,16 @@
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>InstallBionicEyeAnimal</defName>
         <label>install bionic animal eye</label>
-        <description>Installs bionic animal eye.</description>
+        <description>Installs bionic animal eye. Requires a min skill in medicine of 8.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-        <jobString>Installing animal bionic eye.</jobString>
+        <jobString>Installing bionic animal eye.</jobString>
         <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>8</minLevel>
+            </li>
+        </skillRequirements>
         <ingredients>
             <li>
                 <filter>
@@ -54,10 +60,16 @@
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>InstallBionicArmAnimal</defName>
         <label>install animal bionic arm</label>
-        <description>Installs animal bionic arm.</description>
+        <description>Installs animal bionic arm. Requires a min skill in medicine of 8.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-        <jobString>Installing animal bionic arm.</jobString>
+        <jobString>Installing bionic animal arm.</jobString>
         <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>8</minLevel>
+            </li>
+        </skillRequirements>
         <ingredients>
             <li>
                 <filter>
@@ -88,16 +100,22 @@
             <li>LeftShoulder</li>
             <li>RightShoulder</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>BionicArm</addsHediff>
+        <addsHediff>BionicArmAnimal</addsHediff>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryFlesh">
         <defName>InstallSimpleProstheticArmAnimal</defName>
         <label>install simple animal prosthetic arm</label>
-        <description>Installs simple prosthetic arm.</description>
+        <description>Installs simple prosthetic arm. Requires a min skill in medicine of 4.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
         <jobString>Installing simple prostethic arm.</jobString>
         <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>4</minLevel>
+            </li>
+        </skillRequirements>
         <ingredients>
             <li>
                 <filter>
@@ -128,17 +146,23 @@
             <li>LeftShoulder</li>
             <li>RightShoulder</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>SimpleProstheticArm</addsHediff>
+        <addsHediff>SimpleProstheticArmAnimal</addsHediff>
     </RecipeDef>
 	
 	
     <RecipeDef ParentName="SurgeryFlesh">
-        <defName>InstallJawAnimal</defName>
-        <label>install animal jaw</label>
-        <description>Installs animal jaw.</description>
+        <defName>InstallJawAnimalSimple</defName>
+        <label>install simple animal jaw</label>
+        <description>Installs a simple animal jaw. Requires a min skill in medicine of 4.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-        <jobString>Installing animal jaw.</jobString>
+        <jobString>Installing simple animal jaw.</jobString>
         <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>4</minLevel>
+            </li>
+        </skillRequirements>
         <ingredients>
             <li>
                 <filter>
@@ -151,7 +175,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>JawAnimal</li>
+                        <li>JawAnimalSimple</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -162,24 +186,30 @@
                 <li>Medicine</li>
             </categories>
             <thingDefs>
-                <li>JawAnimal</li>
+                <li>JawAnimalSimple</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>Jaw</li>
 			<li>Beak</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>JawAnimal</addsHediff>
+        <addsHediff>JawAnimalSimple</addsHediff>
     </RecipeDef>
 	
 	
-	    <RecipeDef ParentName="SurgeryFlesh">
-        <defName>InstallSpineAnimal</defName>
-        <label>install animal spine</label>
-        <description>Installs animal spine.</description>
+	<RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallJawAnimalBionic</defName>
+        <label>install bionic animal jaw</label>
+        <description>Installs an improved bionic animal jaw. Requires a min skill in medicine of 8.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-        <jobString>Installing animal spine.</jobString>
+        <jobString>Installing bionic animal jaw.</jobString>
         <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>8</minLevel>
+            </li>
+        </skillRequirements>
         <ingredients>
             <li>
                 <filter>
@@ -192,7 +222,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>SpineAnimal</li>
+                        <li>JawAnimalBionic</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -203,23 +233,76 @@
                 <li>Medicine</li>
             </categories>
             <thingDefs>
-                <li>SpineAnimal</li>
+                <li>JawAnimalBionic</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Jaw</li>
+			<li>Beak</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>JawAnimalBionic</addsHediff>
+    </RecipeDef>
+	
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallSpineAnimalSimple</defName>
+        <label>install simple animal spine</label>
+        <description>Installs a simple animal spine. Requires a min skill in medicine of 6.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing simple animal spine.</jobString>
+        <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>6</minLevel>
+            </li>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>SpineAnimalSimple</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>SpineAnimalSimple</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>Spine</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>SpineAnimal</addsHediff>
+        <addsHediff>SpineAnimalSimple</addsHediff>
     </RecipeDef>
 	
 	
-		    <RecipeDef ParentName="SurgeryFlesh">
-        <defName>InstallEarAnimal</defName>
-        <label>install animal ear implant</label>
-        <description>Installs animal ear implant.</description>
+	<RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallSpineAnimalBionic</defName>
+        <label>install bionic animal spine</label>
+        <description>Installs an improved bionic animal spine. Requires a min skill in medicine of 10.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-        <jobString>Installing animal ear implant.</jobString>
+        <jobString>Installing bionic animal spine.</jobString>
         <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
         <ingredients>
             <li>
                 <filter>
@@ -232,7 +315,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>EarAnimal</li>
+                        <li>SpineAnimalBionic</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -243,14 +326,246 @@
                 <li>Medicine</li>
             </categories>
             <thingDefs>
-                <li>EarAnimal</li>
+                <li>SpineAnimalBionic</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Spine</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>SpineAnimalBionic</addsHediff>
+    </RecipeDef>
+	
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallEarAnimalSimple</defName>
+        <label>install simple animal ear implant</label>
+        <description>Installs a simple animal ear implant. Requires a min skill in medicine of 4.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing simple animal ear implant.</jobString>
+        <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>4</minLevel>
+            </li>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EarAnimalSimple</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>EarAnimalSimple</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>LeftEar</li>
 			<li>RightEar</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>EarAnimal</addsHediff>
+        <addsHediff>EarAnimalSimple</addsHediff>
+    </RecipeDef>
+	
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallEarAnimalBionic</defName>
+        <label>install bionic animal ear implant</label>
+        <description>Installs an improved bionic animal ear implant. Requires a min skill in medicine of 8.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing bionic animal ear implant.</jobString>
+        <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>8</minLevel>
+            </li>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>EarAnimalBionic</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>EarAnimalBionic</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>LeftEar</li>
+			<li>RightEar</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>EarAnimalBionic</addsHediff>
+    </RecipeDef>
+	
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallAnimalBrainStimulator</defName>
+        <label>install animal brain stimulator</label>
+        <description>Installs an animal brain stimulator. Requires a min skill in medicine of 10.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing animal brain stimulator.</jobString>
+        <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>AnimalBrainStimulator</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>AnimalBrainStimulator</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Brain</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>AnimalBrainStimulator</addsHediff>
+    </RecipeDef>
+	
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallBionicAnimalHeart</defName>
+        <label>install bionic animal heart</label>
+        <description>Installs a bionic animal heart. Requires a min skill in medicine of 10.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing bionic animal heart.</jobString>
+        <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BionicAnimalHeart</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>BionicAnimalHeart</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>Heart</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>BionicAnimalHeart</addsHediff>
+    </RecipeDef>
+	
+	
+	<RecipeDef ParentName="SurgeryFlesh">
+        <defName>InstallBionicAnimalLung</defName>
+        <label>install bionic animal lung</label>
+        <description>Installs a bionic animal lung. Requires a min skill in medicine of 10.</description>
+        <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+        <jobString>Installing bionic animal lung.</jobString>
+        <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>10</minLevel>
+            </li>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>Medicine</li>
+                    </categories>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>BionicAnimalLung</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <categories>
+                <li>Medicine</li>
+            </categories>
+            <thingDefs>
+                <li>BionicAnimalLung</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <appliedOnFixedBodyParts>
+            <li>LeftLung</li>
+			<li>RightLung</li>
+        </appliedOnFixedBodyParts>
+        <addsHediff>BionicAnimalLung</addsHediff>
     </RecipeDef>
 	
 <!-- ========================= Legs ======================== -->
@@ -312,15 +627,21 @@
 
     <RecipeDef Abstract="True" Name="BionicLegBase" ParentName="LegBase">
         <label>install bionic animal leg</label>
-        <description>Installs bionic animal leg.</description>
+        <description>Installs bionic animal leg. Requires min skill in medicine of 8.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
         <jobString>Installing bionic leg.</jobString>
         <workAmount>2000</workAmount>
-        <addsHediff>BionicLeg</addsHediff>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>8</minLevel>
+            </li>
+        </skillRequirements>
+        <addsHediff>BionicLegAnimal</addsHediff>
     </RecipeDef>
 
 		<RecipeDef ParentName="BionicLegBase">
-        <defName>InstallBionicLegAnimalSmall</defName>
+        <defName>InstallBionicLegAnimal</defName>
         <ingredients>
             <li>
                 <filter>
@@ -333,7 +654,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>BionicLegAnimalSmall</li>
+                        <li>BionicLegAnimal</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -344,7 +665,7 @@
                 <li>Medicine</li>
             </categories>
             <thingDefs>
-                <li>BionicLegAnimalSmall</li>
+                <li>BionicLegAnimal</li>
             </thingDefs>
         </fixedIngredientFilter>        
     </RecipeDef>
@@ -450,15 +771,21 @@
 
     <RecipeDef Abstract="True" Name="SimpleLegBase" ParentName="LegBase">
         <label>install simple prosthetic animal leg</label>
-        <description>Installs simple prosthetic animal leg.</description>
+        <description>Installs simple prosthetic animal leg. Requires min skill in medicine of 4.</description>
         <workerClass>Recipe_InstallArtificialBodyPart</workerClass>
         <jobString>Installing simple prostethic leg.</jobString>
         <workAmount>2000</workAmount>
+		<skillRequirements>
+            <li>
+                <skill>Medicine</skill>
+                <minLevel>4</minLevel>
+            </li>
+        </skillRequirements>
         <addsHediff>SimpleProstheticLeg</addsHediff>
     </RecipeDef>
 
     <RecipeDef ParentName="SimpleLegBase">
-        <defName>InstallSimpleProstheticLegAnimalSmall</defName>
+        <defName>InstallSimpleProstheticLegAnimal</defName>
         <ingredients>
             <li>
                 <filter>
@@ -471,7 +798,7 @@
             <li>
                 <filter>
                     <thingDefs>
-                        <li>SimpleProstheticLegAnimalSmall</li>
+                        <li>SimpleProstheticLegAnimal</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -482,7 +809,7 @@
                 <li>Medicine</li>
             </categories>
             <thingDefs>
-                <li>SimpleProstheticLegAnimalSmall</li>
+                <li>SimpleProstheticLegAnimal</li>
             </thingDefs>
         </fixedIngredientFilter>        
     </RecipeDef>
