@@ -79,24 +79,6 @@
         </techHediffsTags>
     </ThingDef>
 
-
-    <ThingDef ParentName="BodyPartAnimalArtificialBase">
-        <defName>SimpleProstheticLegAnimalSmall</defName>
-        <label>simple prosthetic animal leg</label>
-        <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient.</description>
-        <graphicData>
-            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <techHediffsTags>
-            <li>Simple</li>
-        </techHediffsTags>
-        <statBases>
-            <MarketValue>100</MarketValue>
-        </statBases>
-    </ThingDef>
-	
-	
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>JawAnimal</defName>
         <label>Animal Jaw</label>
@@ -128,10 +110,9 @@
         <statBases>
             <MarketValue>650</MarketValue>
         </statBases>
-    </ThingDef>
+    </ThingDef>	
 	
-	
-	 <ThingDef ParentName="BodyPartAnimalArtificialBase">
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
         <defName>EarAnimal</defName>
         <label>Animal Ear Implant</label>
         <description>Ear implant for animals.</description>
@@ -144,6 +125,22 @@
         </techHediffsTags>
         <statBases>
             <MarketValue>550</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BodyPartAnimalArtificialBase">
+        <defName>SimpleProstheticLegAnimalSmall</defName>
+        <label>simple prosthetic animal leg</label>
+        <description>Simple prosthesis made to replace missing leg. Not very comfortable but quite efficient.</description>
+        <graphicData>
+            <texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <techHediffsTags>
+            <li>Simple</li>
+        </techHediffsTags>
+        <statBases>
+            <MarketValue>100</MarketValue>
         </statBases>
     </ThingDef>
 	
