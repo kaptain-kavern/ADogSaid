@@ -274,8 +274,9 @@
   <BodyPartDef>
     <defName>LeftEar</defName>
     <label>left ear</label>
-    <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <hitPoints>10</hitPoints>
+	<frostbiteVulnerability>1.5</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <skinCovered>true</skinCovered>
     <activities>
       <li>Hearing_source</li>
