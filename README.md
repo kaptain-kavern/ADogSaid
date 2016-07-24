@@ -17,14 +17,14 @@ Following parts are added to the game:
 * simple/bionic animal jaw. Fits all animals. 
 * simple/bionic animal spine. Fits all animals.
 * simple prosthetic/bionic animal arms. Fits monkey and megatherium.
-* simple prosthetic animal/bionics legs. Fits all animals.
+* simple prosthetic/bionic animal legs. Fits all animals.
 * peglegs. Can be crafted with 1 wood. Fits all animals. Least efficiency.
 
 All parts can be obtained from traders, except pegleg.
 
 Simple parts are slightly lower in efficiency than natural parts. Bionic parts are higher.
 
-Simple/ bionic legs, arms and jaws do melee damage now, depending on type.
+Simple/bionic legs, arms and jaws do melee damage now, depending on type.
 
 All parts need medicine skill now to be installed and one unit of medicine. Simple parts need a skill from 4-6. Bionic parts need a skill form 8-10.
 
