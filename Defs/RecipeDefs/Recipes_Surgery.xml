@@ -54,7 +54,59 @@
             <li>RightEye</li>
             <li>LeftEye</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>BionicEye</addsHediff>
+        <addsHediff>BionicEyeAnimal</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryFlesh">
@@ -101,6 +153,10 @@
             <li>RightShoulder</li>
         </appliedOnFixedBodyParts>
         <addsHediff>BionicArmAnimal</addsHediff>
+		<recipeUsers>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	    </recipeUsers>
     </RecipeDef>
 
     <RecipeDef ParentName="SurgeryFlesh">
@@ -147,6 +203,10 @@
             <li>RightShoulder</li>
         </appliedOnFixedBodyParts>
         <addsHediff>SimpleProstheticArmAnimal</addsHediff>
+		<recipeUsers>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	    </recipeUsers>
     </RecipeDef>
 	
 	
@@ -194,6 +254,58 @@
 			<li>Beak</li>
         </appliedOnFixedBodyParts>
         <addsHediff>JawAnimalSimple</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 	
@@ -241,6 +353,58 @@
 			<li>Beak</li>
         </appliedOnFixedBodyParts>
         <addsHediff>JawAnimalBionic</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 	
@@ -287,6 +451,58 @@
             <li>Spine</li>
         </appliedOnFixedBodyParts>
         <addsHediff>SpineAnimalSimple</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 	
@@ -333,6 +549,58 @@
             <li>Spine</li>
         </appliedOnFixedBodyParts>
         <addsHediff>SpineAnimalBionic</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 	
@@ -380,6 +648,58 @@
 			<li>RightEar</li>
         </appliedOnFixedBodyParts>
         <addsHediff>EarAnimalSimple</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 	
@@ -427,6 +747,58 @@
 			<li>RightEar</li>
         </appliedOnFixedBodyParts>
         <addsHediff>EarAnimalBionic</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 	
@@ -473,6 +845,58 @@
             <li>Brain</li>
         </appliedOnFixedBodyParts>
         <addsHediff>AnimalBrainStimulator</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 	
@@ -519,6 +943,58 @@
             <li>Heart</li>
         </appliedOnFixedBodyParts>
         <addsHediff>BionicAnimalHeart</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 	
@@ -566,6 +1042,58 @@
 			<li>RightLung</li>
         </appliedOnFixedBodyParts>
         <addsHediff>BionicAnimalLung</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cobra</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 	
 <!-- ========================= Legs ======================== -->
@@ -623,6 +1151,57 @@
             </thingDefs>
         </fixedIngredientFilter>
         <addsHediff>PegLeg</addsHediff>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>
     </RecipeDef>
 
     <RecipeDef Abstract="True" Name="BionicLegBase" ParentName="LegBase">
@@ -667,105 +1246,59 @@
             <thingDefs>
                 <li>BionicLegAnimal</li>
             </thingDefs>
-        </fixedIngredientFilter>        
+        </fixedIngredientFilter> 
+    	<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>		
     </RecipeDef>
-
-<!-- Install different sizes of bionics leg  -->
-				<!-- desactived for now -->
-<!--
-
-    <RecipeDef ParentName="BionicLegBase">
-        <defName>InstallBionicLegAnimalMedium</defName>
-        <ingredients>
-            <li>
-                <filter>
-                    <categories>
-                        <li>Medicine</li>
-                    </categories>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>BionicLegAnimalMedium</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <categories>
-                <li>Medicine</li>
-            </categories>
-            <thingDefs>
-                <li>BionicLegAnimalMedium</li>
-            </thingDefs>
-        </fixedIngredientFilter>       
-    </RecipeDef>
-
-    <RecipeDef ParentName="BionicLegBase">
-        <defName>InstallBionicLegAnimalLarge</defName>
-        <ingredients>
-            <li>
-                <filter>
-                    <categories>
-                        <li>Medicine</li>
-                    </categories>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>BionicLegAnimalLarge</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <categories>
-                <li>Medicine</li>
-            </categories>
-            <thingDefs>
-                <li>BionicLegAnimalLarge</li>
-            </thingDefs>
-        </fixedIngredientFilter>        
-    </RecipeDef>
-
-    <RecipeDef ParentName="BionicLegBase">
-        <defName>InstallBionicLegAnimalHuge</defName>
-        <ingredients>
-            <li>
-                <filter>
-                    <categories>
-                        <li>Medicine</li>
-                    </categories>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>BionicLegAnimalHuge</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <categories>
-                <li>Medicine</li>
-            </categories>
-            <thingDefs>
-                <li>BionicLegAnimalHuge</li>
-            </thingDefs>
-        </fixedIngredientFilter>        
-    </RecipeDef>
-
-    													-->
-
 
 
 
@@ -811,102 +1344,58 @@
             <thingDefs>
                 <li>SimpleProstheticLegAnimal</li>
             </thingDefs>
-        </fixedIngredientFilter>        
-    </RecipeDef>
-
-
-    <!-- Install different sizes of bionics leg  -->
-				<!-- desactived for now -->
-	<!-- 
-       
-    <RecipeDef ParentName="SimpleLegBase">
-        <defName>InstallSimpleProstheticLegAnimalMedium</defName>
-        <ingredients>
-            <li>
-                <filter>
-                    <categories>
-                        <li>Medicine</li>
-                    </categories>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>SimpleProstheticLegAnimalMedium</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <categories>
-                <li>Medicine</li>
-            </categories>
-            <thingDefs>
-                <li>SimpleProstheticLegAnimalMedium</li>
-            </thingDefs>
         </fixedIngredientFilter>
+		<recipeUsers>
+            <li>Alpaca</li>
+	        <li>Alphabeaver</li>
+	        <li>Boomalope</li>
+	        <li>Boomrat</li>
+	        <li>Capybara</li>
+	        <li>Caribou</li>
+	        <li>Cassowary</li>
+	        <li>Cat</li>
+	        <li>Chicken</li>
+	        <li>Chinchilla</li>
+	        <li>Cougar</li>
+	        <li>Cow</li>
+	        <li>Deer</li>
+	        <li>Dromedary</li>
+	        <li>Elephant</li>
+	        <li>Elk</li>
+	        <li>Emu</li>
+	        <li>FoxArctic</li>
+	        <li>FoxFennec</li>
+	        <li>FoxRed</li>
+	        <li>Gazelle</li>
+	        <li>GrizzlyBear</li>
+	        <li>Hare</li>
+	        <li>Husky</li>
+	        <li>Ibex</li>
+	        <li>Iguana</li>
+	        <li>LabradorRetriever</li>
+	        <li>Lynx</li>
+	        <li>Megascarab</li>
+	        <li>Megatherium</li>
+	        <li>Monkey</li>
+	        <li>Muffalo</li>
+	        <li>Ostrich</li>
+	        <li>Panther</li>
+	        <li>Pig</li>
+	        <li>PolarBear</li>
+	        <li>Raccoon</li>
+	        <li>Rat</li>
+	        <li>Rhinoceros</li>
+	        <li>Snowhare</li>
+	        <li>Squirrel</li>
+	        <li>Thrumbo</li>
+	        <li>Tortoise</li>
+	        <li>Turkey</li>
+	        <li>Warg</li>
+	        <li>WildBoar</li>
+	        <li>WolfArctic</li>
+	        <li>WolfTimber</li>
+	        <li>YorkshireTerrier</li>
+        </recipeUsers>        
     </RecipeDef>
-
-    <RecipeDef ParentName="SimpleLegBase">
-        <defName>InstallSimpleProstheticLegAnimalLarge</defName>
-        <ingredients>
-            <li>
-                <filter>
-                    <categories>
-                        <li>Medicine</li>
-                    </categories>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>SimpleProstheticLegAnimalLarge</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <categories>
-                <li>Medicine</li>
-            </categories>
-            <thingDefs>
-                <li>SimpleProstheticLegAnimalLarge</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-    </RecipeDef>
-
-    <RecipeDef ParentName="SimpleLegBase">
-        <defName>InstallSimpleProstheticLegAnimalHuge</defName>
-        <ingredients>
-            <li>
-                <filter>
-                    <categories>
-                        <li>Medicine</li>
-                    </categories>
-                </filter>
-                <count>1</count>
-            </li>
-            <li>
-                <filter>
-                    <thingDefs>
-                        <li>SimpleProstheticLegAnimalHuge</li>
-                    </thingDefs>
-                </filter>
-                <count>1</count>
-            </li>
-        </ingredients>
-        <fixedIngredientFilter>
-            <categories>
-                <li>Medicine</li>
-            </categories>
-            <thingDefs>
-                <li>SimpleProstheticLegAnimalHuge</li>
-            </thingDefs>
-        </fixedIngredientFilter>
-    </RecipeDef> 
-								-->
+							
 </RecipeDefs>
