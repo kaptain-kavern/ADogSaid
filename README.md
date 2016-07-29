@@ -21,6 +21,7 @@ Following parts are added to the game:
 * simple prosthetic/bionic animal legs. Fits all animals.
 
 All parts can be obtained from traders, except peglegs.
+All parts can be crafted at the machining table. Crafting requires a skill of 5-12, depending on part.
 
 Simple parts are slightly lower in efficiency than natural parts. Bionic parts are higher.
 

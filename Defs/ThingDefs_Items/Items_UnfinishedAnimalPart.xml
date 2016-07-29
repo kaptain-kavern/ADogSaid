@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef ParentName="UnfinishedBase">
+    <defName>UnfinishedAnimalPart</defName>
+    <label>Unfinished animal part</label>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/UnfinishedAnimalPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>      
+    </stuffCategories>
+  </ThingDef>
+
+</Defs>
