@@ -6,6 +6,7 @@
       <hediffClass>Hediff_AddedPart</hediffClass>
       <naturallyHealed>false</naturallyHealed>
       <defaultLabelColor>(120,125,10)</defaultLabelColor>
+      <isBad>false</isBad>
    </HediffDef>
    
    
