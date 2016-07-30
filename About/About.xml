@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>A Dog Said...</name>
-	<author>Latta</author>
+	<author>spoonshortage kaptain_kavern nattiejim</author>
     <url></url>
 	<targetVersion>0.14.1241</targetVersion>
 	<description>
@@ -24,6 +24,7 @@ Following parts are added to the game:
 * bionic animal legs. Fits all animals.
 
 All parts can be obtained from traders, except pegleg.
+All parts can be crafted at the machining table. Crafting requires a skill of 5-12, depending on part.
 
 Simple parts are slightly lower in efficiency than natural parts. Bionic parts are higher.
 
@@ -31,5 +32,5 @@ Simple/ bionic legs, arms and jaws do melee damage now, depending on type.
 
 All parts need medicine skill now to be installed. Simple parts need a skill from 4-6. Bionic parts need a skill form 8-10.
 
-Updated from Latta's A13 by the Rimworld Community (spoonshortage, Nattiejim and KapTaiN_KaVerN)</description>
+Updated, overhauled and expanded from Latta's A13 by the Rimworld Community (spoonshortage, Nattiejim and KapTaiN_KaVerN)</description>
 </ModMetaData>
