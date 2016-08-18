@@ -32,4 +32,4 @@ All parts need medicine skill and 1 medicine to be installed. Simple parts need 
 ## Mod Team:
 * kaptain_kavern (code)
 * spoonshortage (code and textures)
-* nattiejim (code and publishing)
+* nattiejim (resigned from team)
