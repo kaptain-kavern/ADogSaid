@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
+
 	<RecipeDef Abstract="True" Name="SurgeryFlesh">
 		<effectWorking>Surgery</effectWorking>
 		<soundWorking>Recipe_Surgery</soundWorking>
@@ -1227,6 +1228,7 @@
 		<addsHediff>BionicLegAnimal</addsHediff>
 	</RecipeDef>
 
+
 	<RecipeDef ParentName="BionicLegBase">
 		<defName>InstallBionicLegAnimal</defName>
 		<ingredients>
@@ -1324,6 +1326,7 @@
 		<addsHediff>SimpleProstheticLeg</addsHediff>
 	</RecipeDef>
 
+
 	<RecipeDef ParentName="SimpleLegBase">
 		<defName>InstallSimpleProstheticLegAnimal</defName>
 		<ingredients>
@@ -1404,6 +1407,5 @@
 			<li>YorkshireTerrier</li>
 		</recipeUsers>        
 	</RecipeDef>
-
 
 </RecipeDefs>

@@ -185,6 +185,7 @@
 	</ThingDef>
 
 
+
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
 		<defName>EarAnimalBionic</defName>
 		<label>bionic animal ear implant</label>

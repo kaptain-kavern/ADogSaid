@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>A Dog Said...</name>
+	<name>A Dog Said...NoCrafting</name>
 	<author>spoonshortage kaptain_kavern</author>
-	<url></url>
+    <url></url>
 	<targetVersion>0.15.1269</targetVersion>
 	<description>
 Adds basic animal surgeries and bionics to Rimworld 
 This mod is fully compatible with Expanded Prosthetics and Organ Engineering (EPOE)
+
+This is the version without crafting.
 
 Following parts are added to the game:
 
@@ -24,7 +26,6 @@ Following parts are added to the game:
 * bionic animal legs. Fits all animals.
 
 All parts can be obtained from traders, except pegleg.
-All parts can be crafted at the machining table. Crafting requires a skill of 5-12, depending on part.
 
 Simple parts are slightly lower in efficiency than natural parts. Bionic parts are higher.
 
