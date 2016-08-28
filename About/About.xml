@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>A Dog Said...</name>
-	<author>spoonshortage kaptain_kavern nattiejim</author>
-    <url></url>
-	<targetVersion>0.14.1241</targetVersion>
+	<author>spoonshortage kaptain_kavern</author>
+	<url></url>
+	<targetVersion>0.15.1279</targetVersion>
 	<description>
 Adds basic animal surgeries and bionics to Rimworld 
 This mod is fully compatible with Expanded Prosthetics and Organ Engineering (EPOE)
@@ -32,5 +32,5 @@ Simple/ bionic legs, arms and jaws do melee damage now, depending on type.
 
 All parts need medicine skill now to be installed. Simple parts need a skill from 4-6. Bionic parts need a skill form 8-10.
 
-Updated, overhauled and expanded from Latta's A13 by the Rimworld Community (spoonshortage, Nattiejim and KapTaiN_KaVerN)</description>
+Updated, overhauled and expanded from Latta's A13</description>
 </ModMetaData>
