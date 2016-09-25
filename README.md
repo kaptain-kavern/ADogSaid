@@ -13,6 +13,9 @@ Following parts are added to the game:
 * bionic animal eyes. Fits all animals. 
 * bionic animal heart. Fits all animals.
 * bionic animal lung. Fits all animals.
+* bionic animal kidney. Fits all animals.
+* bionic animal liver. Fits all animals.
+* bionic animal stomach. Fits all animals.
 * simple/bionic animal ears. Fits all animals.
 * simple/bionic animal jaw. Fits all animals. 
 * simple/bionic animal spine. Fits all animals.
