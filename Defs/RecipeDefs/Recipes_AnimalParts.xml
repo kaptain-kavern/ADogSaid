@@ -681,6 +681,179 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
+	
+	
+	<RecipeDef>
+		<defName>MakeBionicAnimalLiver</defName>
+		<label>make bionic animal liver</label>
+		<description>Make bionic animal liver.</description>
+		<jobString>Making bionic animal liver.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>3000</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableMachining</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>DevilstrandCloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BionicAnimalLiver>1</BionicAnimalLiver>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>12</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+
+	<RecipeDef>
+		<defName>MakeBionicAnimalKidney</defName>
+		<label>make bionic animal kidney</label>
+		<description>Make bionic animal kidney.</description>
+		<jobString>Making bionic animal kidney.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>3000</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableMachining</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>DevilstrandCloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BionicAnimalKidney>1</BionicAnimalKidney>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>12</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+
+	<RecipeDef>
+		<defName>MakeBionicAnimalStomach</defName>
+		<label>make bionic animal stomach</label>
+		<description>Make bionic animal stomach.</description>
+		<jobString>Making bionic animal stomach.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>3000</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableMachining</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DevilstrandCloth</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>DevilstrandCloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BionicAnimalStomach>1</BionicAnimalStomach>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>12</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
 
 
 </RecipeDefs>
