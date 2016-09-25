@@ -252,6 +252,57 @@
 			<MarketValue>750</MarketValue>
 		</statBases>
 	</ThingDef>
+	
+	
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>BionicAnimalLiver</defName>
+		<label>bionic animal liver</label>
+		<description>Improved bionic liver for animals. Fits all animals.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>750</MarketValue>
+		</statBases>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>BionicAnimalKidney</defName>
+		<label>bionic animal kidney</label>
+		<description>Improved bionic kidney for animals. Fits all animals.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>750</MarketValue>
+		</statBases>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>BionicAnimalStomach</defName>
+		<label>bionic animal stomach</label>
+		<description>Improved bionic stomach for animals. Fits all animals.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>750</MarketValue>
+		</statBases>
+	</ThingDef>
 
 
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
