@@ -257,6 +257,81 @@
 			</li>	 
 		</stages>
 	</HediffDef>
+	
+	
+	<HediffDef ParentName="addedPartAnimal">
+		<defName>BionicAnimalLiver</defName>
+		<label>bionic animal liver</label>
+		<spawnThingOnRemoved>BionicAnimalLiver</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.3</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.3</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+
+	<HediffDef ParentName="addedPartAnimal">
+		<defName>BionicAnimalKidney</defName>
+		<label>bionic animal kidney</label>
+		<spawnThingOnRemoved>BionicAnimalKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.3</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.3</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+
+	<HediffDef ParentName="addedPartAnimal">
+		<defName>BionicAnimalStomach</defName>
+		<label>bionic animal stomach</label>
+		<spawnThingOnRemoved>BionicAnimalStomach</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Eating</capacity>
+						<offset>0.3</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.3</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
 
 
 	<HediffDef ParentName="addedPartAnimal">
