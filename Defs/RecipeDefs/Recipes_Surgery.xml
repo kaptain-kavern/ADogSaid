@@ -11,112 +11,7 @@
 	</RecipeDef>
 
 
-	<!-- new body parts - artificial -->
-
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallBionicArmAnimal</defName>
-		<label>install animal bionic arm</label>
-		<description>Installs animal bionic arm. Requires a min skill in medicine of 8.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing bionic animal arm.</jobString>
-		<workAmount>2000</workAmount>
-		<skillRequirements>
-			<li>
-				<skill>Medicine</skill>
-				<minLevel>8</minLevel>
-			</li>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>BionicArmAnimal</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>BionicArmAnimal</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>LeftShoulder</li>
-			<li>RightShoulder</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>BionicArmAnimal</addsHediff>
-		<recipeUsers>
-			<li>Megatherium</li>
-			<li>Monkey</li>
-		</recipeUsers>
-	</RecipeDef>
-
-
-	<RecipeDef ParentName="SurgeryFlesh">
-		<defName>InstallSimpleProstheticArmAnimal</defName>
-		<label>install simple animal prosthetic arm</label>
-		<description>Installs simple prosthetic arm. Requires a min skill in medicine of 4.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing simple prostethic arm.</jobString>
-		<workAmount>2000</workAmount>
-		<skillRequirements>
-			<li>
-				<skill>Medicine</skill>
-				<minLevel>4</minLevel>
-			</li>
-		</skillRequirements>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>SimpleProstheticArmAnimal</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>SimpleProstheticArmAnimal</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<appliedOnFixedBodyParts>
-			<li>LeftShoulder</li>
-			<li>RightShoulder</li>
-		</appliedOnFixedBodyParts>
-		<addsHediff>SimpleProstheticArmAnimal</addsHediff>
-		<recipeUsers>
-			<li>Megatherium</li>
-			<li>Monkey</li>
-		</recipeUsers>
-	</RecipeDef>
-
-
-	<!-- ========================= Legs ======================== -->
+	<!-- =============== Limbs =============== -->
 
 
 	<RecipeDef Abstract="True" Name="LegBase" ParentName="SurgeryFlesh">
@@ -227,103 +122,6 @@
 	</RecipeDef>
 
 
-	<RecipeDef Abstract="True" Name="BionicLegBase" ParentName="LegBase">
-		<label>install bionic animal leg</label>
-		<description>Installs bionic animal leg. Requires min skill in medicine of 8.</description>
-		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing bionic leg.</jobString>
-		<workAmount>2000</workAmount>
-		<skillRequirements>
-			<li>
-				<skill>Medicine</skill>
-				<minLevel>8</minLevel>
-			</li>
-		</skillRequirements>
-		<addsHediff>BionicLegAnimal</addsHediff>
-	</RecipeDef>
-
-	<RecipeDef ParentName="BionicLegBase">
-		<defName>InstallBionicLegAnimal</defName>
-		<ingredients>
-			<li>
-				<filter>
-					<categories>
-						<li>Medicine</li>
-					</categories>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>BionicLegAnimal</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<categories>
-				<li>Medicine</li>
-			</categories>
-			<thingDefs>
-				<li>BionicLegAnimal</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<recipeUsers>
-			<li>Alpaca</li>
-			<li>Alphabeaver</li>
-			<li>Boomalope</li>
-			<li>Boomrat</li>
-			<li>Capybara</li>
-			<li>Caribou</li>
-			<li>Cassowary</li>
-			<li>Cat</li>
-			<li>Chicken</li>
-			<li>Chinchilla</li>
-			<li>Cougar</li>
-			<li>Cow</li>
-			<li>Deer</li>
-			<li>Dromedary</li>
-			<li>Elephant</li>
-			<li>Elk</li>
-			<li>Emu</li>
-			<li>FoxArctic</li>
-			<li>FoxFennec</li>
-			<li>FoxRed</li>
-			<li>Gazelle</li>
-			<li>GrizzlyBear</li>
-			<li>Hare</li>
-			<li>Husky</li>
-			<li>Ibex</li>
-			<li>Iguana</li>
-			<li>LabradorRetriever</li>
-			<li>Lynx</li>
-			<li>Megascarab</li>
-			<li>Megatherium</li>
-			<li>Monkey</li>
-			<li>Muffalo</li>
-			<li>Ostrich</li>
-			<li>Panther</li>
-			<li>Pig</li>
-			<li>PolarBear</li>
-			<li>Raccoon</li>
-			<li>Rat</li>
-			<li>Rhinoceros</li>
-			<li>Snowhare</li>
-			<li>Squirrel</li>
-			<li>Thrumbo</li>
-			<li>Tortoise</li>
-			<li>Turkey</li>
-			<li>Warg</li>
-			<li>WildBoar</li>
-			<li>WolfArctic</li>
-			<li>WolfTimber</li>
-			<li>YorkshireTerrier</li>
-		</recipeUsers>        
-	</RecipeDef>
-
-
 	<RecipeDef Abstract="True" Name="SimpleLegBase" ParentName="LegBase">
 		<label>install simple prosthetic animal leg</label>
 		<description>Installs simple prosthetic animal leg. Requires min skill in medicine of 4.</description>
@@ -338,7 +136,6 @@
 		</skillRequirements>
 		<addsHediff>SimpleProstheticLeg</addsHediff>
 	</RecipeDef>
-
 
 	<RecipeDef ParentName="SimpleLegBase">
 		<defName>InstallSimpleProstheticLegAnimal</defName>
@@ -418,7 +215,206 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
+		</recipeUsers>        
+	</RecipeDef>
+
+
+	<RecipeDef Abstract="True" Name="BionicLegBase" ParentName="LegBase">
+		<label>install bionic animal leg</label>
+		<description>Installs bionic animal leg. Requires min skill in medicine of 8.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic leg.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>8</minLevel>
+			</li>
+		</skillRequirements>
+		<addsHediff>BionicLegAnimal</addsHediff>
+	</RecipeDef>
+
+	<RecipeDef ParentName="BionicLegBase">
+		<defName>InstallBionicLegAnimal</defName>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicLegAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicLegAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter> 
+		<recipeUsers>
+			<li>Alpaca</li>
+			<li>Alphabeaver</li>
+			<li>Boomalope</li>
+			<li>Boomrat</li>
+			<li>Capybara</li>
+			<li>Caribou</li>
+			<li>Cassowary</li>
+			<li>Cat</li>
+			<li>Chicken</li>
+			<li>Chinchilla</li>
+			<li>Cougar</li>
+			<li>Cow</li>
+			<li>Deer</li>
+			<li>Dromedary</li>
+			<li>Elephant</li>
+			<li>Elk</li>
+			<li>Emu</li>
+			<li>FoxArctic</li>
+			<li>FoxFennec</li>
+			<li>FoxRed</li>
+			<li>Gazelle</li>
+			<li>GrizzlyBear</li>
+			<li>Hare</li>
+			<li>Husky</li>
+			<li>Ibex</li>
+			<li>Iguana</li>
+			<li>LabradorRetriever</li>
+			<li>Lynx</li>
+			<li>Megascarab</li>
+			<li>Megatherium</li>
+			<li>Monkey</li>
+			<li>Muffalo</li>
+			<li>Ostrich</li>
+			<li>Panther</li>
+			<li>Pig</li>
+			<li>PolarBear</li>
+			<li>Raccoon</li>
+			<li>Rat</li>
+			<li>Rhinoceros</li>
+			<li>Snowhare</li>
+			<li>Squirrel</li>
+			<li>Thrumbo</li>
+			<li>Tortoise</li>
+			<li>Turkey</li>
+			<li>Warg</li>
+			<li>WildBoar</li>
+			<li>WolfArctic</li>
+			<li>WolfTimber</li>
+			<li>YorkshireTerrier</li>
 		</recipeUsers>		
+	</RecipeDef>
+
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallSimpleProstheticArmAnimal</defName>
+		<label>install simple animal prosthetic arm</label>
+		<description>Installs simple prosthetic arm. Requires a min skill in medicine of 4.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing simple prostethic arm.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>4</minLevel>
+			</li>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SimpleProstheticArmAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SimpleProstheticArmAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>LeftShoulder</li>
+			<li>RightShoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>SimpleProstheticArmAnimal</addsHediff>
+		<recipeUsers>
+			<li>Megatherium</li>
+			<li>Monkey</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallBionicArmAnimal</defName>
+		<label>install animal bionic arm</label>
+		<description>Installs animal bionic arm. Requires a min skill in medicine of 8.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing bionic animal arm.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>8</minLevel>
+			</li>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BionicArmAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BionicArmAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>LeftShoulder</li>
+			<li>RightShoulder</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>BionicArmAnimal</addsHediff>
+		<recipeUsers>
+			<li>Megatherium</li>
+			<li>Monkey</li>
+		</recipeUsers>
 	</RecipeDef>
 
 

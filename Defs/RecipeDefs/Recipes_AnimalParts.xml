@@ -2,52 +2,7 @@
 <RecipeDefs>
 
 
-	<RecipeDef>
-		<defName>MakeSimpleProstheticArmAnimal</defName>
-		<label>make simple prosthetic animal arm</label>
-		<description>Make a simple prosthetic animal arm.</description>
-		<jobString>Making simple prosthetic animal arm.</jobString>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>1500</workAmount>
-		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableMachining</li></RecipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>25</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
-				</filter>
-				<count>30</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>WoodLog</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<SimpleProstheticArmAnimal>1</SimpleProstheticArmAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>5</minLevel>
-			</li>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
+	<!-- =============== Limbs =============== -->
 
 
 	<RecipeDef>
@@ -99,54 +54,6 @@
 
 
 	<RecipeDef>
-		<defName>MakeBionicArmAnimal</defName>
-		<label>make bionic animal arm</label>
-		<description>Make a bionic animal arm.</description>
-		<jobString>Making bionic animal arm.</jobString>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>2500</workAmount>
-		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableMachining</li></RecipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>75</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>30</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>Plasteel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<BionicArmAnimal>1</BionicArmAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
-
-
-	<RecipeDef>
 		<defName>MakeBionicLegAnimal</defName>
 		<label>make bionic animal leg</label>
 		<description>Make a bionic animal leg.</description>
@@ -183,6 +90,102 @@
 		</fixedIngredientFilter>
 		<products>
 			<BionicLegAnimal>1</BionicLegAnimal>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>MakeSimpleProstheticArmAnimal</defName>
+		<label>make simple prosthetic animal arm</label>
+		<description>Make a simple prosthetic animal arm.</description>
+		<jobString>Making simple prosthetic animal arm.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1500</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableMachining</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SimpleProstheticArmAnimal>1</SimpleProstheticArmAnimal>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>5</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>MakeBionicArmAnimal</defName>
+		<label>make bionic animal arm</label>
+		<description>Make a bionic animal arm.</description>
+		<jobString>Making bionic animal arm.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableMachining</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BionicArmAnimal>1</BionicArmAnimal>
 		</products>
 		<skillRequirements>
 			<li>

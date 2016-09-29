@@ -6,12 +6,36 @@
 	<HediffDef Name="addedPartAnimal" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<naturallyHealed>false</naturallyHealed>
-		<defaultLabelColor>(120,125,10)</defaultLabelColor>
+		<defaultLabelColor>(120,100,10)</defaultLabelColor>
 		<isBad>false</isBad>
 	</HediffDef>
 
 
-	<!-- Added body parts -->
+	<!-- =============== Limbs =============== -->
+
+
+	<HediffDef ParentName="addedPartAnimal">
+		<defName>SimpleProstheticLegAnimal</defName>
+		<label>simple prosthetic animal leg</label>
+		<comps>
+			<li>
+				<compClass>HediffComp_VerbGiver</compClass>
+				<verbs>
+					<li>
+						<verbClass>Verb_MeleeAttack</verbClass>
+						<defaultCooldownTicks>70</defaultCooldownTicks>
+						<meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+						<meleeDamageDef>Scratch</meleeDamageDef>
+					</li>
+				</verbs>
+			</li>
+		</comps>
+		<spawnThingOnRemoved>SimpleProstheticLegAnimal</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>0.8</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+	</HediffDef>
 
 
 	<HediffDef ParentName="addedPartAnimal">
@@ -49,8 +73,8 @@
 
 
 	<HediffDef ParentName="addedPartAnimal">
-		<defName>SimpleProstheticLegAnimal</defName>
-		<label>simple prosthetic animal leg</label>
+		<defName>SimpleProstheticArmAnimal</defName>
+		<label>simple prosthetic animal arm</label>
 		<comps>
 			<li>
 				<compClass>HediffComp_VerbGiver</compClass>
@@ -64,7 +88,7 @@
 				</verbs>
 			</li>
 		</comps>
-		<spawnThingOnRemoved>SimpleProstheticLegAnimal</spawnThingOnRemoved>
+		<spawnThingOnRemoved>SimpleProstheticArmAnimal</spawnThingOnRemoved>
 		<addedPartProps>
 			<partEfficiency>0.8</partEfficiency>
 			<isSolid>true</isSolid>
@@ -107,30 +131,6 @@
 				</capMods>
 			</li>	 
 		</stages>
-	</HediffDef>
-
-
-	<HediffDef ParentName="addedPartAnimal">
-		<defName>SimpleProstheticArmAnimal</defName>
-		<label>simple prosthetic animal arm</label>
-		<comps>
-			<li>
-				<compClass>HediffComp_VerbGiver</compClass>
-				<verbs>
-					<li>
-						<verbClass>Verb_MeleeAttack</verbClass>
-						<defaultCooldownTicks>70</defaultCooldownTicks>
-						<meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-						<meleeDamageDef>Scratch</meleeDamageDef>
-					</li>
-				</verbs>
-			</li>
-		</comps>
-		<spawnThingOnRemoved>SimpleProstheticArmAnimal</spawnThingOnRemoved>
-		<addedPartProps>
-			<partEfficiency>0.8</partEfficiency>
-			<isSolid>true</isSolid>
-		</addedPartProps>
 	</HediffDef>
 
 

@@ -33,38 +33,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BodyPartAnimalArtificialBase">
-		<defName>SimpleProstheticArmAnimal</defName>
-		<label>simple prosthetic animal arm</label>
-		<description>Simple prosthetic animal arm. Fits monkeys and megatherium.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>200</MarketValue>
-		</statBases>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-	</ThingDef>
-
-
-	<ThingDef ParentName="BodyPartAnimalArtificialBase">
-		<defName>BionicArmAnimal</defName>
-		<label>bionic animal arm</label>
-		<description>Improved bionic animal arm. Fits monkeys and megatherium.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-			<MarketValue>650</MarketValue>
-		</statBases>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-	</ThingDef>
+	<!-- =============== Limbs =============== -->
 
 
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
@@ -98,6 +67,40 @@
 		<statBases>
 			<MarketValue>750</MarketValue>
 		</statBases>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>SimpleProstheticArmAnimal</defName>
+		<label>simple prosthetic animal arm</label>
+		<description>Simple prosthetic animal arm. Fits monkeys and megatherium.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>200</MarketValue>
+		</statBases>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>BionicArmAnimal</defName>
+		<label>bionic animal arm</label>
+		<description>Improved bionic animal arm. Fits monkeys and megatherium.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>650</MarketValue>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
 	</ThingDef>
 
 
