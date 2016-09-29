@@ -2,52 +2,7 @@
 <RecipeDefs>
 
 
-	<RecipeDef>
-		<defName>MakeSimpleProstheticArmAnimal</defName>
-		<label>make simple prosthetic animal arm</label>
-		<description>Make a simple prosthetic animal arm.</description>
-		<jobString>Making simple prosthetic animal arm.</jobString>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>1500</workAmount>
-		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>25</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>WoodLog</li>
-					</thingDefs>
-				</filter>
-				<count>30</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>WoodLog</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<SimpleProstheticArmAnimal>1</SimpleProstheticArmAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>5</minLevel>
-			</li>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
+	<!-- =============== Limbs =============== -->
 
 
 	<RecipeDef>
@@ -99,14 +54,14 @@
 
 
 	<RecipeDef>
-		<defName>MakeJawAnimalSimple</defName>
-		<label>make simple animal jaw</label>
-		<description>Make a simple animal jaw.</description>
-		<jobString>Making simple animal jaw.</jobString>
+		<defName>MakeBionicLegAnimal</defName>
+		<label>make bionic animal leg</label>
+		<description>Make a bionic animal leg.</description>
+		<jobString>Making bionic animal leg.</jobString>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>1000</workAmount>
+		<workAmount>2500</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
 		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
 		<ingredients>
@@ -116,7 +71,55 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<BionicLegAnimal>1</BionicLegAnimal>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>MakeSimpleProstheticArmAnimal</defName>
+		<label>make simple prosthetic animal arm</label>
+		<description>Make a simple prosthetic animal arm.</description>
+		<jobString>Making simple prosthetic animal arm.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1500</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
 			</li>
 			<li>
 				<filter>
@@ -124,7 +127,7 @@
 						<li>WoodLog</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>30</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -134,85 +137,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<JawAnimalSimple>1</JawAnimalSimple>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>5</minLevel>
-			</li>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
-
-
-	<RecipeDef>
-		<defName>MakeSpineAnimalSimple</defName>
-		<label>make simple animal spine</label>
-		<description>Make a simple animal spine.</description>
-		<jobString>Making simple animal spine.</jobString>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>2000</workAmount>
-		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>45</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<SpineAnimalSimple>1</SpineAnimalSimple>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>6</minLevel>
-			</li>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
-
-
-	<RecipeDef>
-		<defName>MakeEarAnimalSimple</defName>
-		<label>make simple animal ear</label>
-		<description>Make a simple animal ear.</description>
-		<jobString>Making simple animal ear.</jobString>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>1000</workAmount>
-		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>35</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<EarAnimalSimple>1</EarAnimalSimple>
+			<SimpleProstheticArmAnimal>1</SimpleProstheticArmAnimal>
 		</products>
 		<skillRequirements>
 			<li>
@@ -272,52 +197,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef>
-		<defName>MakeBionicLegAnimal</defName>
-		<label>make bionic animal leg</label>
-		<description>Make a bionic animal leg.</description>
-		<jobString>Making bionic animal leg.</jobString>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>2500</workAmount>
-		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>75</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>30</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>Plasteel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<BionicLegAnimal>1</BionicLegAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
+	<!-- =============== Other Parts =============== -->
 
 
 	<RecipeDef>
@@ -362,6 +242,141 @@
 			<li>
 				<skill>Crafting</skill>
 				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>MakeEarAnimalSimple</defName>
+		<label>make simple animal ear</label>
+		<description>Make a simple animal ear.</description>
+		<jobString>Making simple animal ear.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<EarAnimalSimple>1</EarAnimalSimple>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>5</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>MakeEarAnimalBionic</defName>
+		<label>make bionic animal ear</label>
+		<description>Make a bionic animal ear.</description>
+		<jobString>Making bionic animal ear.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2500</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<EarAnimalBionic>1</EarAnimalBionic>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>10</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+	<RecipeDef>
+		<defName>MakeJawAnimalSimple</defName>
+		<label>make simple animal jaw</label>
+		<description>Make a simple animal jaw.</description>
+		<jobString>Making simple animal jaw.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1000</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>WoodLog</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<JawAnimalSimple>1</JawAnimalSimple>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>5</minLevel>
 			</li>
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
@@ -417,6 +432,45 @@
 
 
 	<RecipeDef>
+		<defName>MakeSpineAnimalSimple</defName>
+		<label>make simple animal spine</label>
+		<description>Make a simple animal spine.</description>
+		<jobString>Making simple animal spine.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>2000</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>45</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<SpineAnimalSimple>1</SpineAnimalSimple>
+		</products>
+		<skillRequirements>
+			<li>
+				<skill>Crafting</skill>
+				<minLevel>6</minLevel>
+			</li>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+
+	<RecipeDef>
 		<defName>MakeSpineAnimalBionic</defName>
 		<label>make bionic animal spine</label>
 		<description>Make a bionic animal spine.</description>
@@ -464,52 +518,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef>
-		<defName>MakeEarAnimalBionic</defName>
-		<label>make bionic animal ear</label>
-		<description>Make a bionic animal ear.</description>
-		<jobString>Making bionic animal ear.</jobString>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>Smith</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<workAmount>2500</workAmount>
-		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>40</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Steel</li>
-				<li>Plasteel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<products>
-			<EarAnimalBionic>1</EarAnimalBionic>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
-		<workSkill>Crafting</workSkill>
-	</RecipeDef>
+	<!-- =============== Organs =============== -->
 
 
 	<RecipeDef>
@@ -681,8 +690,8 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-	
-	
+
+
 	<RecipeDef>
 		<defName>MakeBionicAnimalLiver</defName>
 		<label>make bionic animal liver</label>
@@ -740,7 +749,6 @@
 	</RecipeDef>
 
 
-
 	<RecipeDef>
 		<defName>MakeBionicAnimalKidney</defName>
 		<label>make bionic animal kidney</label>
@@ -796,7 +804,6 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
-
 
 
 	<RecipeDef>
