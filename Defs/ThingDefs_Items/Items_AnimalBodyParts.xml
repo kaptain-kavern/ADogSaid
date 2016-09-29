@@ -32,20 +32,40 @@
 	</ThingDef>
 
 
+	<!-- =============== Limbs =============== -->
+
+
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
-		<defName>BionicEyeAnimal</defName>
-		<label>animal bionic eye</label>
-		<description>Improved bionic animal eye. Fits all animals. </description>
+		<defName>SimpleProstheticLegAnimal</defName>
+		<label>simple prosthetic animal leg</label>
+		<description>Simple prosthetic animal leg. Fits all animals.</description>
 		<graphicData>
 			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
 		<statBases>
-			<MarketValue>650</MarketValue>
+			<MarketValue>100</MarketValue>
 		</statBases>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>BionicLegAnimal</defName>
+		<label>bionic animal leg</label>
+		<description>Improved bionic leg for animals. Fits all animals. </description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 		<techHediffsTags>
 			<li>Advanced</li>
 		</techHediffsTags>
+		<statBases>
+			<MarketValue>750</MarketValue>
+		</statBases>
 	</ThingDef>
 
 
@@ -83,10 +103,30 @@
 	</ThingDef>
 
 
+	<!-- =============== Other Parts =============== -->
+
+
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
-		<defName>SimpleProstheticLegAnimal</defName>
-		<label>simple prosthetic animal leg</label>
-		<description>Simple prosthetic animal leg. Fits all animals.</description>
+		<defName>BionicEyeAnimal</defName>
+		<label>animal bionic eye</label>
+		<description>Improved bionic animal eye. Fits all animals. </description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>650</MarketValue>
+		</statBases>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>EarAnimalSimple</defName>
+		<label>simple animal ear implant</label>
+		<description>Simple ear implant for animals. Fits all animals.</description>
 		<graphicData>
 			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -95,7 +135,24 @@
 			<li>Simple</li>
 		</techHediffsTags>
 		<statBases>
-			<MarketValue>100</MarketValue>
+			<MarketValue>250</MarketValue>
+		</statBases>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>EarAnimalBionic</defName>
+		<label>bionic animal ear implant</label>
+		<description>Improved bionic ear implant for animals. Fits all animals.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>Advanced</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>450</MarketValue>
 		</statBases>
 	</ThingDef>
 
@@ -135,23 +192,6 @@
 
 
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
-		<defName>SpineAnimalBionic</defName>
-		<label>bionic animal spine</label>
-		<description>Improved bionic spine for animals. Fits all animals.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<statBases>
-			<MarketValue>950</MarketValue>
-		</statBases>
-	</ThingDef>
-
-
-	<ThingDef ParentName="BodyPartAnimalArtificialBase">
 		<defName>SpineAnimalSimple</defName>
 		<label>simple animal spine</label>
 		<description>Functional spine for animals. Fits all animals.</description>
@@ -169,27 +209,9 @@
 
 
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
-		<defName>EarAnimalSimple</defName>
-		<label>simple animal ear implant</label>
-		<description>Simple ear implant for animals. Fits all animals.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<techHediffsTags>
-			<li>Simple</li>
-		</techHediffsTags>
-		<statBases>
-			<MarketValue>250</MarketValue>
-		</statBases>
-	</ThingDef>
-
-
-
-	<ThingDef ParentName="BodyPartAnimalArtificialBase">
-		<defName>EarAnimalBionic</defName>
-		<label>bionic animal ear implant</label>
-		<description>Improved bionic ear implant for animals. Fits all animals.</description>
+		<defName>SpineAnimalBionic</defName>
+		<label>bionic animal spine</label>
+		<description>Improved bionic spine for animals. Fits all animals.</description>
 		<graphicData>
 			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -198,9 +220,12 @@
 			<li>Advanced</li>
 		</techHediffsTags>
 		<statBases>
-			<MarketValue>450</MarketValue>
+			<MarketValue>950</MarketValue>
 		</statBases>
 	</ThingDef>
+
+
+	<!-- =============== Organs =============== -->
 
 
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
@@ -252,8 +277,8 @@
 			<MarketValue>750</MarketValue>
 		</statBases>
 	</ThingDef>
-	
-	
+
+
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
 		<defName>BionicAnimalLiver</defName>
 		<label>bionic animal liver</label>
@@ -292,23 +317,6 @@
 		<defName>BionicAnimalStomach</defName>
 		<label>bionic animal stomach</label>
 		<description>Improved bionic stomach for animals. Fits all animals.</description>
-		<graphicData>
-			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<techHediffsTags>
-			<li>Advanced</li>
-		</techHediffsTags>
-		<statBases>
-			<MarketValue>750</MarketValue>
-		</statBases>
-	</ThingDef>
-
-
-	<ThingDef ParentName="BodyPartAnimalArtificialBase">
-		<defName>BionicLegAnimal</defName>
-		<label>bionic animal leg</label>
-		<description>Improved bionic leg for animals. Fits all animals. </description>
 		<graphicData>
 			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
