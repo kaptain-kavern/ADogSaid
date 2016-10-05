@@ -23,21 +23,30 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
+				<count>55</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
 				<count>25</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WoodLog</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-				<li>WoodLog</li>
+				<li>Plasteel</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -56,7 +65,7 @@
 	<RecipeDef>
 		<defName>MakeBionicLegAnimal</defName>
 		<label>make bionic animal leg</label>
-		<description>Make a bionic animal leg.</description>
+		<description>Make a bionic animal leg. Using a prosthetic animal leg, plasteel and components</description>
 		<jobString>Making bionic animal leg.</jobString>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
@@ -68,10 +77,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SimpleProstheticLegAnimal</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -79,13 +88,22 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Component</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>SimpleProstheticLegAnimal</li>
 				<li>Plasteel</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -119,21 +137,30 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
+				<count>55</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
 				<count>25</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WoodLog</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-				<li>WoodLog</li>
+				<li>Plasteel</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -152,7 +179,7 @@
 	<RecipeDef>
 		<defName>MakeBionicArmAnimal</defName>
 		<label>make bionic animal arm</label>
-		<description>Make a bionic animal arm.</description>
+		<description>Make a bionic animal arm. Using a prosthetic animal arm, plasteel and components</description>
 		<jobString>Making bionic animal arm.</jobString>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
@@ -164,10 +191,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>SimpleProstheticArmAnimal</li>
 					</thingDefs>
 				</filter>
-				<count>75</count>
+				<count>1</count>
 			</li>
 			<li>
 				<filter>
@@ -175,13 +202,22 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Component</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>SimpleProstheticArmAnimal</li>
 				<li>Plasteel</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -215,24 +251,24 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>35</count>
+				<count>55</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Plasteel</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>45</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Plasteel</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -263,15 +299,15 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>35</count>
+				<count>20</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Plasteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -302,23 +338,14 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>40</count>
+				<count>45</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Plasteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
@@ -353,21 +380,21 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>65</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WoodLog</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>15</count>
+				<count>1</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
-				<li>WoodLog</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -398,24 +425,33 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
-					</thingDefs>
-				</filter>
-				<count>35</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
 				<count>45</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Component</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Plasteel</li>
+				<li>Steel</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -451,10 +487,19 @@
 				</filter>
 				<count>45</count>
 			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Steel</li>
+				<li>Plasteel</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -485,6 +530,14 @@
 			<li>
 				<filter>
 					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
@@ -493,16 +546,17 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Plasteel</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>30</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
 				<li>Plasteel</li>
+				<li>Steel</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -536,10 +590,18 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Component</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
 			</li>
 			<li>
 				<filter>
@@ -549,20 +611,12 @@
 				</filter>
 				<count>50</count>
 			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Silver</li>
-					</thingDefs>
-				</filter>
-				<count>50</count>
-			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Cloth</li>
+				<li>Component</li>
 				<li>Plasteel</li>
-				<li>Silver</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -593,10 +647,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>40</count>
 			</li>
 			<li>
 				<filter>
@@ -604,22 +658,22 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>25</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DevilstrandCloth</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Cloth</li>
 				<li>Plasteel</li>
-				<li>DevilstrandCloth</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -650,10 +704,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>30</count>
 			</li>
 			<li>
 				<filter>
@@ -661,22 +715,22 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DevilstrandCloth</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Cloth</li>
 				<li>Plasteel</li>
-				<li>DevilstrandCloth</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -707,10 +761,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -718,22 +772,22 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DevilstrandCloth</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Cloth</li>
 				<li>Plasteel</li>
-				<li>DevilstrandCloth</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -764,10 +818,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -775,22 +829,22 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DevilstrandCloth</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Cloth</li>
 				<li>Plasteel</li>
-				<li>DevilstrandCloth</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -821,10 +875,10 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Steel</li>
+						<li>Cloth</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>20</count>
 			</li>
 			<li>
 				<filter>
@@ -832,22 +886,22 @@
 						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>50</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>DevilstrandCloth</li>
+						<li>Component</li>
 					</thingDefs>
 				</filter>
-				<count>25</count>
+				<count>3</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Steel</li>
+				<li>Cloth</li>
 				<li>Plasteel</li>
-				<li>DevilstrandCloth</li>
+				<li>Component</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
