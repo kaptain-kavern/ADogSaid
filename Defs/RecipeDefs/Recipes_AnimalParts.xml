@@ -51,13 +51,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<SimpleProstheticLegAnimal>1</SimpleProstheticLegAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>5</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -108,13 +102,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<BionicLegAnimal>1</BionicLegAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -165,13 +153,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<SimpleProstheticArmAnimal>1</SimpleProstheticArmAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>5</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -222,13 +204,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<BionicArmAnimal>1</BionicArmAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -273,13 +249,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<BionicEyeAnimal>1</BionicEyeAnimal>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -312,13 +282,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<EarAnimalSimple>1</EarAnimalSimple>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>5</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -351,13 +315,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<EarAnimalBionic>1</EarAnimalBionic>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -399,13 +357,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<JawAnimalSimple>1</JawAnimalSimple>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>5</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -456,13 +408,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<JawAnimalBionic>1</JawAnimalBionic>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -504,13 +450,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<SpineAnimalSimple>1</SpineAnimalSimple>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>6</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -561,13 +501,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<SpineAnimalBionic>1</SpineAnimalBionic>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>10</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -621,13 +555,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<AnimalBrainStimulator>1</AnimalBrainStimulator>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>12</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -678,13 +606,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<BionicAnimalHeart>1</BionicAnimalHeart>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>12</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -735,13 +657,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<BionicAnimalLung>1</BionicAnimalLung>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>12</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -793,12 +709,6 @@
 		<products>
 			<BionicAnimalLiver>1</BionicAnimalLiver>
 		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>12</minLevel>
-			</li>
-		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -849,13 +759,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<BionicAnimalKidney>1</BionicAnimalKidney>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>12</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
@@ -906,13 +810,7 @@
 		</fixedIngredientFilter>
 		<products>
 			<BionicAnimalStomach>1</BionicAnimalStomach>
-		</products>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>12</minLevel>
-			</li>
-		</skillRequirements>
+		</products>		
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
