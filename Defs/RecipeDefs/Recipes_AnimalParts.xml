@@ -15,7 +15,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>1500</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSimpleProsthetic</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -63,7 +63,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>2500</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableBionics</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -111,7 +111,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>1500</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSimpleProsthetic</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -159,7 +159,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>2500</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableBionics</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -210,7 +210,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>2500</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableBionics</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -258,7 +258,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>1000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSimpleProsthetic</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -297,7 +297,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>2500</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableBionics</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -345,7 +345,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>1000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSimpleProsthetic</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -393,7 +393,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>2500</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableBionics</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -441,7 +441,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>2000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSimpleProsthetic</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -480,7 +480,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>2800</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableBionics</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -531,7 +531,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>3000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSurrogates</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -588,7 +588,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>3000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSurrogates</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -645,7 +645,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>3000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSurrogates</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -702,7 +702,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>3000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSurrogates</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -759,7 +759,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>3000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSurrogates</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
@@ -816,7 +816,7 @@
 		<soundWorking>Recipe_Machining</soundWorking>
 		<workAmount>3000</workAmount>
 		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
-		<RecipeUsers><li>TableAnimalProsthetics</li></RecipeUsers>
+		<RecipeUsers><li>TableSurrogates</li></RecipeUsers>
 		<ingredients>
 			<li>
 				<filter>
