@@ -5,7 +5,7 @@
 	<HediffDef Name="addedPartAnimal" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
 		<naturallyHealed>false</naturallyHealed>
-		<defaultLabelColor>(120,100,10)</defaultLabelColor>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
 		<isBad>false</isBad>
 	</HediffDef>
 
@@ -30,6 +30,7 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>SimpleProstheticLegAnimal</spawnThingOnRemoved>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
 		<addedPartProps>
 			<partEfficiency>0.8</partEfficiency>
 			<isSolid>true</isSolid>
@@ -88,6 +89,7 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>SimpleProstheticArmAnimal</spawnThingOnRemoved>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
 		<addedPartProps>
 			<partEfficiency>0.8</partEfficiency>
 			<isSolid>true</isSolid>
@@ -161,6 +163,7 @@
 		<defName>EarAnimalSimple</defName>
 		<label>simple animal ear implant</label>
 		<spawnThingOnRemoved>EarAnimalSimple</spawnThingOnRemoved>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
 		<addedPartProps>
 			<partEfficiency>0.9</partEfficiency>
 			<isSolid>true</isSolid>
@@ -191,7 +194,7 @@
 
 	<HediffDef ParentName="addedPartAnimal">
 		<defName>JawAnimalSimple</defName>
-		<label>simple animal jaw implant</label>
+		<label>simple animal jaw</label>
 		<comps>
 			<li>
 				<compClass>HediffComp_VerbGiver</compClass>
@@ -206,6 +209,7 @@
 			</li>
 		</comps>
 		<spawnThingOnRemoved>JawAnimalSimple</spawnThingOnRemoved>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
 		<addedPartProps>
 			<partEfficiency>1.0</partEfficiency>
 			<isSolid>true</isSolid>
@@ -225,7 +229,7 @@
 
 	<HediffDef ParentName="addedPartAnimal">
 		<defName>JawAnimalBionic</defName>
-		<label>bionic animal jaw implant</label>
+		<label>bionic animal jaw</label>
 		<comps>
 			<li>
 				<compClass>HediffComp_VerbGiver</compClass>
@@ -265,6 +269,7 @@
 			<partEfficiency>1.0</partEfficiency>
 			<isSolid>true</isSolid>
 		</addedPartProps>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
 		<stages>
 			<li>
 				<capMods>
