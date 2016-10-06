@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>A Dog Said-EPOE compatibility patch</name>
-	<author>spoonshortage and kaptain_kavern</author>
-	<url>https://ludeon.com/forums/index.php?topic=24578.0</url>
+	<name>"ADS - CK-APP" Compatibility Patch</name>
+	<author></author>
+	<url></url>
 	<targetVersion>0.15.1284</targetVersion>
-	<description>Move all "A Dog Said..." recipes to EPOE benches and remove the skill requirements to be on par with how EPOE works.
-
-		!!!!Be sure to put this add-on AFTER both "A Dog Said" and "EPOE"!!!!</description>
+	<description>!!!!Be sure to put this add-on AFTER both "A Dog Said" and "CK - Animal and Plant Pack"!!!!</description>
 </ModMetaData>
