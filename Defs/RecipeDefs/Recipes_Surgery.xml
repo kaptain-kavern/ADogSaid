@@ -117,24 +117,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>			
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>			
 		</recipeUsers>
 	</RecipeDef>
 
@@ -232,24 +218,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>			
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>        
 	</RecipeDef>
 
@@ -347,24 +319,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>			
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>		
 	</RecipeDef>
 
@@ -415,12 +373,7 @@
 		<addsHediff>SimpleProstheticArmAnimal</addsHediff>
 		<recipeUsers>
 			<li>Megatherium</li>
-			<li>Monkey</li>
-			<!-- CK animals -->			
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>			
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>			
+			<li>Monkey</li>		
 		</recipeUsers>
 	</RecipeDef>
 
@@ -472,11 +425,6 @@
 		<recipeUsers>
 			<li>Megatherium</li>
 			<li>Monkey</li>
-			<!-- CK animals -->			
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>			
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -579,25 +527,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -697,25 +630,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -815,25 +733,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -933,25 +836,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1051,25 +939,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1168,25 +1041,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1285,25 +1143,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1405,25 +1248,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1522,25 +1350,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1640,25 +1453,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1757,25 +1555,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1875,25 +1658,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
@@ -1992,25 +1760,10 @@
 			<li>WolfArctic</li>
 			<li>WolfTimber</li>
 			<li>YorkshireTerrier</li>
-			<!-- CK animals -->
-			<li>ArcticHare</li>
-			<li>Bongo</li>
-			<li>CapuchinMonkey</li>
-			<li>Gorilla</li>
-			<li>Jaguar</li>
-			<li>Junglefowl</li>
-			<li>KomodoDragon</li>
+			<!-- CPBeasties -->
+			<li>Penguin</li>
 			<li>Panda</li>
-			<li>Peafowl</li>
-			<li>Python</li>
-			<li>Okapi</li>
-			<li>SnowLeopard</li>
-			<li>SpiderMonkey</li>
-			<li>SquirrelMonkey</li>
-			<li>Tapir</li>
-			<li>Tiger</li>
-			<li>Toucan</li>
-			<li>WhiteTiger</li>
+			<li>Otter</li>
 		</recipeUsers>
 	</RecipeDef>
 
