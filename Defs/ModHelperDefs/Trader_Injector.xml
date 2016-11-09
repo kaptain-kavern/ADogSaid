@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<CommunityCoreLibrary.ModHelperDef>
+	<defName>ADogSaid</defName>
+	<ModName>A Dog Said...</ModName>
+	<minCCLVersion>0.15.0</minCCLVersion>
+
+	<SequencedInjectionSets>
+
+	<li Class="CommunityCoreLibrary.SequencedInjectionSet_StockGenerator">
+		<targetDef>Caravan_Outlander_CombatSupplier</targetDef>
+		<stockGenerators>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsAnimalArtificial</categoryDef>
+				<thingDefCountRange>
+					<min>-2</min><max>-2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min><max>2</max>
+				</countRange>
+			</li>
+		</stockGenerators>
+	</li>
+	<li Class="CommunityCoreLibrary.SequencedInjectionSet_StockGenerator">
+		<targetDef>Caravan_Outlander_Exotic</targetDef>
+		<stockGenerators>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsAnimalArtificial</categoryDef>
+				<thingDefCountRange>
+					<min>2</min><max>3</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min><max>2</max>
+				</countRange>
+			</li>
+		</stockGenerators>
+	</li>
+	<li Class="CommunityCoreLibrary.SequencedInjectionSet_StockGenerator">
+		<targetDef>Caravan_Outlander_PirateMerchant</targetDef>
+		<stockGenerators>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsAnimalArtificial</categoryDef>
+				<thingDefCountRange>
+					<min>-2</min><max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min><max>2</max>
+				</countRange>
+			</li>
+		</stockGenerators>
+	</li>
+	<li Class="CommunityCoreLibrary.SequencedInjectionSet_StockGenerator">
+		<targetDef>Orbital_CombatSupplier</targetDef>
+		<stockGenerators>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsAnimalArtificial</categoryDef>
+				<thingDefCountRange>
+					<min>0</min><max>4</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min><max>1</max>
+				</countRange>
+			</li>
+		</stockGenerators>
+	</li>
+	<li Class="CommunityCoreLibrary.SequencedInjectionSet_StockGenerator">
+		<targetDef>Orbital_Exotic</targetDef>
+		<stockGenerators>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsAnimalArtificial</categoryDef>
+				<thingDefCountRange>
+					<min>2</min><max>4</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min><max>1</max>
+				</countRange>
+			</li>
+		</stockGenerators>
+	</li>
+	<li Class="CommunityCoreLibrary.SequencedInjectionSet_StockGenerator">
+		<targetDef>Orbital_PirateMerchant</targetDef>
+		<stockGenerators>
+			<li Class="StockGenerator_Category">
+				<categoryDef>BodyPartsAnimalArtificial</categoryDef>
+				<thingDefCountRange>
+					<min>-3</min><max>4</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>1</min><max>1</max>
+				</countRange>
+			</li>
+		</stockGenerators>
+	</li>
+
+	</SequencedInjectionSets>
+
+</CommunityCoreLibrary.ModHelperDef>
+
+</Defs>
