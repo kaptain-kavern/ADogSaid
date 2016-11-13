@@ -12,6 +12,16 @@
 
 	<!-- =============== Limbs =============== -->
 
+	<HediffDef ParentName="addedPartAnimal">
+	    <defName>ProstheticTail</defName>
+	    <label>prosthetic tail</label>
+	    <addedPartProps>
+	      <isSolid>true</isSolid>	      
+	    </addedPartProps>
+	    <spawnThingOnRemoved>ProstheticTailAnimal</spawnThingOnRemoved> 
+	    <defaultLabelColor>(233,129,69)</defaultLabelColor>
+	</HediffDef>
+
 
 	<HediffDef ParentName="addedPartAnimal">
 		<defName>SimpleProstheticLegAnimal</defName>
