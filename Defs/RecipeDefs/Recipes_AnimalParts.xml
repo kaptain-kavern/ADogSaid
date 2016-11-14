@@ -4,6 +4,47 @@
 
 	<!-- =============== Limbs =============== -->
 
+	<RecipeDef>
+		<defName>MakeProstheticTailAnimal</defName>
+		<label>make simple prosthetic animal tail</label>
+		<description>Make a simple prosthetic animal tail.</description>
+		<jobString>Making simple prosthetic animal tail.</jobString>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Smith</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1500</workAmount>
+		<unfinishedThingDef>UnfinishedAnimalPart</unfinishedThingDef>
+		<RecipeUsers><li>TableSimpleProsthetic</li></RecipeUsers>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ProstheticTailAnimal>1</ProstheticTailAnimal>
+		</products>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
 
 	<RecipeDef>
 		<defName>MakeSimpleProstheticLegAnimal</defName>
