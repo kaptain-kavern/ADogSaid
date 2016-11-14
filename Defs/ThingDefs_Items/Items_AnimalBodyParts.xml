@@ -34,6 +34,21 @@
 
 	<!-- =============== Limbs =============== -->
 
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>ProstheticTailAnimal</defName>
+		<label>simple prosthetic animal tail</label>
+		<description>Simple prosthetic animal tail. Fits all animals.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>80</MarketValue>
+		</statBases>
+	</ThingDef>	
 
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
 		<defName>SimpleProstheticLegAnimal</defName>
