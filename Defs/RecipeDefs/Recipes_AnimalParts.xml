@@ -8,7 +8,7 @@
 		<defName>MakeProstheticTailAnimal</defName>
 		<label>make simple prosthetic animal tail</label>
 		<description>Make a simple prosthetic animal tail.</description>
-		<jobString>Making simple prosthetic animal taill.</jobString>
+		<jobString>Making simple prosthetic animal tail.</jobString>
 		<workSpeedStat>SmithingSpeed</workSpeedStat>
 		<effectWorking>Smith</effectWorking>
 		<soundWorking>Recipe_Machining</soundWorking>
