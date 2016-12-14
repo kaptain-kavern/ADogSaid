@@ -14,7 +14,7 @@
 		<altitudeLayer>Item</altitudeLayer>
 		<useHitPoints>true</useHitPoints>
 		<isUnfinishedThing>true</isUnfinishedThing>
-		<canMakeOnMapGen>false</canMakeOnMapGen>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
 		<selectable>true</selectable>
 		<tradeability>Never</tradeability>
 		<drawerType>RealtimeOnly</drawerType>
