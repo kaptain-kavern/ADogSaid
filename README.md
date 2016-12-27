@@ -1,4 +1,4 @@
-# ADogSaid...
+# ADogSaid...No Crafting
 
 -<p align="center"><img src="/About/Preview.png" alt="ADogSaid"/></p>
 
@@ -6,7 +6,6 @@
 Adds basic animal surgeries and bionics to Rimworld
 
 This mod is *fully compatible* with **Expanded Prosthetics and Organ Engineering**
-This is the version without crafting.
 
 Following parts are added to the game:
 
@@ -14,8 +13,8 @@ Following parts are added to the game:
 * bionic animal eyes. Fits all animals. 
 * bionic animal heart. Fits all animals.
 * bionic animal lung. Fits all animals.
-* bionic animal liver. Fits all animals.
 * bionic animal kidney. Fits all animals.
+* bionic animal liver. Fits all animals.
 * bionic animal stomach. Fits all animals.
 * simple/bionic animal ears. Fits all animals.
 * simple/bionic animal jaw. Fits all animals. 
@@ -23,6 +22,7 @@ Following parts are added to the game:
 * simple prosthetic/bionic animal arms. Fits monkey and megatherium.
 * peglegs. Can be crafted with 1 wood. Fits all animals. Least efficiency.
 * simple prosthetic/bionic animal legs. Fits all animals.
+* simple prosthetic tail. Fits all animals with tails.
 
 All parts can be obtained from traders, except peglegs.
 
@@ -35,4 +35,3 @@ All parts need medicine skill and 1 medicine to be installed. Simple parts need 
 ## Mod Team:
 * kaptain_kavern (code)
 * spoonshortage (code and textures)
-* nattiejim (resigned from team)

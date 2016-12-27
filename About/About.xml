@@ -2,13 +2,11 @@
 <ModMetaData>
 	<name>A Dog Said...NoCrafting</name>
 	<author>spoonshortage and kaptain_kavern</author>
-    <url></url>
-	<targetVersion>0.15.1284</targetVersion>
+	<url>https://ludeon.com/forums/index.php?topic=24578.0</url>
+	<targetVersion>0.16.1393</targetVersion>
 	<description>
 Adds basic animal surgeries and bionics to Rimworld 
 This mod is fully compatible with Expanded Prosthetics and Organ Engineering (EPOE)
-
-This is the version without crafting.
 
 Following parts are added to the game:
 
@@ -21,12 +19,13 @@ Following parts are added to the game:
 * bionic animal arms. Fits monkey and megatherium.
 * bionic animal heart. Fits all animals.
 * bionic animal lung. Fits all animals.
-* bionic animal liver. Fits all animals.
 * bionic animal kidney. Fits all animals.
+* bionic animal liver. Fits all animals.
 * bionic animal stomach. Fits all animals.
 * peglegs. Can be crafted with 1 wood. Fits all animals. Least efficiency.
 * simple prosthetic animal legs. Fits all animals.
 * bionic animal legs. Fits all animals.
+* prosthetic tail. fits all animals with tails.
 
 All parts can be obtained from traders, except pegleg.
 
