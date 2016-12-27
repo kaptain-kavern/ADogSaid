@@ -25,7 +25,6 @@
 		<pathCost>10</pathCost>
 	</ThingDef>
 
-
 	<ThingDef ParentName="BodyPartBase" Name="BodyPartAnimalArtificialBase" Abstract="True">
 		<thingCategories>
 			<li>BodyPartsAnimalArtificial</li>
@@ -34,6 +33,23 @@
 
 
 	<!-- =============== Limbs =============== -->
+
+
+	<ThingDef ParentName="BodyPartAnimalArtificialBase">
+		<defName>ProstheticTailAnimal</defName>
+		<label>simple prosthetic animal tail</label>
+		<description>Simple prosthetic animal tail. Fits all animals.</description>
+		<graphicData>
+			<texPath>Things/Item/BodyPart/AnimalBodyPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techHediffsTags>
+			<li>Simple</li>
+		</techHediffsTags>
+		<statBases>
+			<MarketValue>80</MarketValue>
+		</statBases>
+	</ThingDef>
 
 
 	<ThingDef ParentName="BodyPartAnimalArtificialBase">
@@ -49,6 +65,7 @@
 		</techHediffsTags>
 		<statBases>
 			<MarketValue>100</MarketValue>
+			<Mass>5</Mass>
 		</statBases>
 	</ThingDef>
 
@@ -66,6 +83,7 @@
 		</techHediffsTags>
 		<statBases>
 			<MarketValue>750</MarketValue>
+			<Mass>8</Mass>
 		</statBases>
 	</ThingDef>
 
@@ -80,6 +98,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>200</MarketValue>
+			<Mass>3</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>Simple</li>
@@ -97,6 +116,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>650</MarketValue>
+			<Mass>5</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>Advanced</li>

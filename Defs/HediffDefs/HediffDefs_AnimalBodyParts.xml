@@ -2,11 +2,9 @@
 
 <Defs>
 
-
 	<HediffDef Name="addedPartAnimal" Abstract="True">
 		<hediffClass>Hediff_AddedPart</hediffClass>
-		<naturallyHealed>false</naturallyHealed>
-		<defaultLabelColor>(120,100,10)</defaultLabelColor>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
 		<isBad>false</isBad>
 	</HediffDef>
 
@@ -15,15 +13,26 @@
 
 
 	<HediffDef ParentName="addedPartAnimal">
+		<defName>ProstheticTail</defName>
+		<label>prosthetic tail</label>
+		<addedPartProps>
+			<isSolid>true</isSolid>	      
+		</addedPartProps>
+		<spawnThingOnRemoved>ProstheticTailAnimal</spawnThingOnRemoved> 
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
+	</HediffDef>
+
+
+	<HediffDef ParentName="addedPartAnimal">
 		<defName>SimpleProstheticLegAnimal</defName>
 		<label>simple prosthetic animal leg</label>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
 		<comps>
-			<li>
-				<compClass>HediffComp_VerbGiver</compClass>
+			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
-						<defaultCooldownTicks>70</defaultCooldownTicks>
+						<defaultCooldownTime>1.8</defaultCooldownTime>
 						<meleeDamageBaseAmount>10</meleeDamageBaseAmount>
 						<meleeDamageDef>Scratch</meleeDamageDef>
 					</li>
@@ -42,12 +51,11 @@
 		<defName>BionicLegAnimal</defName>
 		<label>bionic animal leg</label>
 		<comps>
-			<li>
-				<compClass>HediffComp_VerbGiver</compClass>
+			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
-						<defaultCooldownTicks>50</defaultCooldownTicks>
+						<defaultCooldownTime>1.4</defaultCooldownTime>
 						<meleeDamageBaseAmount>20</meleeDamageBaseAmount>
 						<meleeDamageDef>Scratch</meleeDamageDef>
 					</li>
@@ -75,13 +83,13 @@
 	<HediffDef ParentName="addedPartAnimal">
 		<defName>SimpleProstheticArmAnimal</defName>
 		<label>simple prosthetic animal arm</label>
+		<defaultLabelColor>(233,129,69)</defaultLabelColor>
 		<comps>
-			<li>
-				<compClass>HediffComp_VerbGiver</compClass>
+			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
-						<defaultCooldownTicks>70</defaultCooldownTicks>
+						<defaultCooldownTime>1.8</defaultCooldownTime>
 						<meleeDamageBaseAmount>10</meleeDamageBaseAmount>
 						<meleeDamageDef>Scratch</meleeDamageDef>
 					</li>
@@ -100,12 +108,11 @@
 		<defName>BionicArmAnimal</defName>
 		<label>bionic animal arm</label>
 		<comps>
-			<li>
-				<compClass>HediffComp_VerbGiver</compClass>
+			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
-						<defaultCooldownTicks>50</defaultCooldownTicks>
+						<defaultCooldownTime>1.4</defaultCooldownTime>
 						<meleeDamageBaseAmount>20</meleeDamageBaseAmount>
 						<meleeDamageDef>Scratch</meleeDamageDef>
 					</li>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
-
 	<RecipeDef Abstract="True" Name="SurgeryFlesh">
 		<effectWorking>Surgery</effectWorking>
 		<soundWorking>Recipe_Surgery</soundWorking>
@@ -12,6 +11,80 @@
 
 
 	<!-- =============== Limbs =============== -->
+
+
+	<RecipeDef ParentName="SurgeryFlesh">
+		<defName>InstallSimpleProstheticTailAnimal</defName>
+		<label>install simple animal prosthetic tail</label>
+		<description>Installs simple prosthetic tail. Requires a min skill in medicine of 4.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing simple prostethic tail.</jobString>
+		<workAmount>2000</workAmount>
+		<skillRequirements>
+			<li>
+				<skill>Medicine</skill>
+				<minLevel>4</minLevel>
+			</li>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ProstheticTailAnimal</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ProstheticTailAnimal</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Tail</li>			
+		</appliedOnFixedBodyParts>
+		<addsHediff>ProstheticTail</addsHediff>
+		<recipeUsers>
+			<li>Alphabeaver</li>
+			<li>Cassowary</li>
+			<li>Cat</li>
+			<li>Chicken</li>
+			<li>Chinchilla</li>
+			<li>Cougar</li>
+			<li>Emu</li>
+			<li>FoxArctic</li>
+			<li>FoxFennec</li>
+			<li>FoxRed</li>
+			<li>Hare</li>
+			<li>Husky</li>
+			<li>Iguana</li>
+			<li>LabradorRetriever</li>
+			<li>Lynx</li>
+			<li>Monkey</li>
+			<li>Ostrich</li>
+			<li>Panther</li>
+			<li>Snowhare</li>
+			<li>Squirrel</li>
+			<li>Tortoise</li>
+			<li>Turkey</li>
+			<li>Warg</li>
+			<li>WolfArctic</li>
+			<li>WolfTimber</li>
+			<li>YorkshireTerrier</li>
+		</recipeUsers>
+	</RecipeDef>
 
 
 	<RecipeDef Abstract="True" Name="LegBase" ParentName="SurgeryFlesh">
@@ -98,7 +171,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -195,7 +268,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -292,7 +365,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -361,7 +434,7 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SimpleProstheticArmAnimal</addsHediff>
 		<recipeUsers>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 		</recipeUsers>
 	</RecipeDef>
@@ -412,7 +485,7 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicArmAnimal</addsHediff>
 		<recipeUsers>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 		</recipeUsers>
 	</RecipeDef>

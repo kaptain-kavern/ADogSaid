@@ -2,7 +2,6 @@
 <Defs>
 
 	<!-- torso for animals -->
-
 	<BodyPartDef>
 		<defName>Body</defName>
 		<label>body</label>
@@ -10,6 +9,8 @@
 		<oldInjuryBaseChance>0.08</oldInjuryBaseChance>
 		<skinCovered>true</skinCovered>
 	</BodyPartDef>
+
+
 
 	<BodyPartDef>
 		<defName>Beak</defName>
