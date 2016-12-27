@@ -22,15 +22,15 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>15</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>WoodLog</li>
+						<li>Plasteel</li>
 					</thingDefs>
 				</filter>
-				<count>10</count>
+				<count>5</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -45,7 +45,8 @@
 		<workSkill>Crafting</workSkill>
 	</RecipeDef>
 
-
+	
+	
 	<RecipeDef>
 		<defName>MakeSimpleProstheticLegAnimal</defName>
 		<label>make simple prosthetic animal leg</label>
