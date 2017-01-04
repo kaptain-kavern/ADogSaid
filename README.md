@@ -22,9 +22,10 @@ Following parts are added to the game:
 * simple prosthetic/bionic animal arms. Fits monkey and megatherium.
 * peglegs. Can be crafted with 1 wood. Fits all animals. Least efficiency.
 * simple prosthetic/bionic animal legs. Fits all animals.
+* simple prosthetic tail. Fits all animals with tails.
 
 All parts can be obtained from traders, except peglegs.
-All parts can be crafted at the animal prosthetics table. Crafting requires a skill of 5-12, depending on part.
+All parts can be crafted at the animal prosthetics bench. Crafting requires a skill of 5-12, depending on part.
 
 Simple parts are slightly lower in efficiency than natural parts. Bionic parts are higher.
 
@@ -35,4 +36,3 @@ All parts need medicine skill and 1 medicine to be installed. Simple parts need 
 ## Mod Team:
 * kaptain_kavern (code)
 * spoonshortage (code and textures)
-* nattiejim (resigned from team)
