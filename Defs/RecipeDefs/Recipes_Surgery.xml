@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
-	<RecipeDef Abstract="True" Name="SurgeryFlesh">
+	<RecipeDef Abstract="True" Name="SurgeryFleshAnimal">
 		<effectWorking>Surgery</effectWorking>
 		<soundWorking>Recipe_Surgery</soundWorking>
 		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
@@ -12,7 +12,8 @@
 
 	<!-- =============== Limbs =============== -->
 
-	<RecipeDef ParentName="SurgeryFlesh">
+
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallSimpleProstheticTailAnimal</defName>
 		<label>install simple animal prosthetic tail</label>
 		<description>Installs simple prosthetic tail. Requires a min skill in medicine of 4.</description>
@@ -76,6 +77,7 @@
 			<li>Panther</li>
 			<li>Snowhare</li>
 			<li>Squirrel</li>
+			<li>Raccoon</li>
 			<li>Tortoise</li>
 			<li>Turkey</li>
 			<li>Warg</li>
@@ -85,7 +87,8 @@
 		</recipeUsers>
 	</RecipeDef>
 
-	<RecipeDef Abstract="True" Name="LegBase" ParentName="SurgeryFlesh">
+
+	<RecipeDef Abstract="True" Name="LegBaseAnimal" ParentName="SurgeryFleshAnimal">
 		<appliedOnFixedBodyParts>
 			<li>FrontLeftLeg</li>
 			<li>FrontRightLeg</li>
@@ -104,7 +107,8 @@
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
 
-	<RecipeDef ParentName="LegBase">
+
+	<RecipeDef ParentName="LegBaseAnimal">
 		<defName>InstallPegLegAnimal</defName>
 		<label>install animal peg leg</label>
 		<description>Installs animal peg leg.</description>
@@ -168,7 +172,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -192,11 +196,11 @@
 	</RecipeDef>
 
 
-	<RecipeDef Abstract="True" Name="SimpleLegBase" ParentName="LegBase">
+	<RecipeDef Abstract="True" Name="SimpleLegBaseAnimal" ParentName="LegBaseAnimal">
 		<label>install simple prosthetic animal leg</label>
 		<description>Installs simple prosthetic animal leg. Requires min skill in medicine of 4.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing simple prostethic leg.</jobString>
+		<jobString>Installing simple prostethic animal leg.</jobString>
 		<workAmount>2000</workAmount>
 		<skillRequirements>
 			<li>
@@ -204,10 +208,10 @@
 				<minLevel>4</minLevel>
 			</li>
 		</skillRequirements>
-		<addsHediff>SimpleProstheticLeg</addsHediff>
+		<addsHediff>SimpleProstheticLegAnimal</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="SimpleLegBase">
+	<RecipeDef ParentName="SimpleLegBaseAnimal">
 		<defName>InstallSimpleProstheticLegAnimal</defName>
 		<ingredients>
 			<li>
@@ -265,7 +269,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -289,7 +293,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef Abstract="True" Name="BionicLegBase" ParentName="LegBase">
+	<RecipeDef Abstract="True" Name="BionicLegBaseAnimal" ParentName="LegBaseAnimal">
 		<label>install bionic animal leg</label>
 		<description>Installs bionic animal leg. Requires min skill in medicine of 8.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
@@ -304,7 +308,7 @@
 		<addsHediff>BionicLegAnimal</addsHediff>
 	</RecipeDef>
 
-	<RecipeDef ParentName="BionicLegBase">
+	<RecipeDef ParentName="BionicLegBaseAnimal">
 		<defName>InstallBionicLegAnimal</defName>
 		<ingredients>
 			<li>
@@ -362,7 +366,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -386,12 +390,12 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallSimpleProstheticArmAnimal</defName>
 		<label>install simple animal prosthetic arm</label>
-		<description>Installs simple prosthetic arm. Requires a min skill in medicine of 4.</description>
+		<description>Installs simple prosthetic animal arm. Requires a min skill in medicine of 4.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing simple prostethic arm.</jobString>
+		<jobString>Installing simple prostethic animal arm.</jobString>
 		<workAmount>2000</workAmount>
 		<skillRequirements>
 			<li>
@@ -431,13 +435,13 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>SimpleProstheticArmAnimal</addsHediff>
 		<recipeUsers>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 		</recipeUsers>
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallBionicArmAnimal</defName>
 		<label>install animal bionic arm</label>
 		<description>Installs animal bionic arm. Requires a min skill in medicine of 8.</description>
@@ -482,7 +486,7 @@
 		</appliedOnFixedBodyParts>
 		<addsHediff>BionicArmAnimal</addsHediff>
 		<recipeUsers>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 		</recipeUsers>
 	</RecipeDef>
@@ -491,7 +495,7 @@
 	<!-- =============== Other Parts =============== -->
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallBionicEyeAnimal</defName>
 		<label>install bionic animal eye</label>
 		<description>Installs bionic animal eye. Requires a min skill in medicine of 8.</description>
@@ -566,7 +570,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -590,7 +594,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallEarAnimalSimple</defName>
 		<label>install simple animal ear implant</label>
 		<description>Installs a simple animal ear implant. Requires a min skill in medicine of 4.</description>
@@ -665,7 +669,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -689,7 +693,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallEarAnimalBionic</defName>
 		<label>install bionic animal ear implant</label>
 		<description>Installs an improved bionic animal ear implant. Requires a min skill in medicine of 8.</description>
@@ -764,7 +768,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -788,7 +792,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallJawAnimalSimple</defName>
 		<label>install simple animal jaw</label>
 		<description>Installs a simple animal jaw. Requires a min skill in medicine of 4.</description>
@@ -828,7 +832,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Jaw</li>
+			<li>AnimalJaw</li>
 			<li>Beak</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>JawAnimalSimple</addsHediff>
@@ -863,7 +867,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -887,7 +891,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallJawAnimalBionic</defName>
 		<label>install bionic animal jaw</label>
 		<description>Installs an improved bionic animal jaw. Requires a min skill in medicine of 8.</description>
@@ -927,7 +931,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>Jaw</li>
+			<li>AnimalJaw</li>
 			<li>Beak</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>JawAnimalBionic</addsHediff>
@@ -962,7 +966,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -986,7 +990,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallSpineAnimalSimple</defName>
 		<label>install simple animal spine</label>
 		<description>Installs a simple animal spine. Requires a min skill in medicine of 6.</description>
@@ -1060,7 +1064,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -1084,7 +1088,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallSpineAnimalBionic</defName>
 		<label>install bionic animal spine</label>
 		<description>Installs an improved bionic animal spine. Requires a min skill in medicine of 10.</description>
@@ -1158,7 +1162,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -1185,7 +1189,7 @@
 	<!-- =============== Organs =============== -->
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallAnimalBrainStimulator</defName>
 		<label>install animal brain stimulator</label>
 		<description>Installs an animal brain stimulator. Requires a min skill in medicine of 10.</description>
@@ -1259,7 +1263,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -1283,7 +1287,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallBionicAnimalHeart</defName>
 		<label>install bionic animal heart</label>
 		<description>Installs a bionic animal heart. Requires a min skill in medicine of 10.</description>
@@ -1357,7 +1361,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -1381,7 +1385,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallBionicAnimalLung</defName>
 		<label>install bionic animal lung</label>
 		<description>Installs a bionic animal lung. Requires a min skill in medicine of 10.</description>
@@ -1456,7 +1460,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -1480,7 +1484,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallBionicAnimalLiver</defName>
 		<label>install bionic animal liver</label>
 		<description>Installs a bionic animal liver. Requires a min skill in medicine of 10.</description>
@@ -1554,7 +1558,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -1578,7 +1582,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallBionicAnimalKidney</defName>
 		<label>install bionic animal kidney</label>
 		<description>Installs a bionic animal kidney Requires a min skill in medicine of 10.</description>
@@ -1653,7 +1657,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
@@ -1677,7 +1681,7 @@
 	</RecipeDef>
 
 
-	<RecipeDef ParentName="SurgeryFlesh">
+	<RecipeDef ParentName="SurgeryFleshAnimal">
 		<defName>InstallBionicAnimalStomach</defName>
 		<label>install bionic animal stomach</label>
 		<description>Installs a bionic animal stomach. Requires a min skill in medicine of 10.</description>
@@ -1751,7 +1755,7 @@
 			<li>LabradorRetriever</li>
 			<li>Lynx</li>
 			<li>Megascarab</li>
-			<li>Megatherium</li>
+			<li>Megasloth</li>
 			<li>Monkey</li>
 			<li>Muffalo</li>
 			<li>Ostrich</li>
