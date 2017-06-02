@@ -1,3 +1,4 @@
+[![Version](https://img.shields.io/badge/Rimworld-A17-green.svg)](http://rimworldgame.com/)
 # ADogSaid...
 
 -<p align="center"><img src="/About/Preview.png" alt="ADogSaid"/></p>
