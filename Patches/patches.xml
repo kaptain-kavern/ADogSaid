@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationInsert"> <!-- "Inserting ears :-D" -->
+		<xpath>/Defs/BodyDef[defName = "Bird"]/corePart/parts/li[10]/parts/li/parts/li[3]</xpath>
+		<value>
+			<li>
+				<def>LeftEar</def>
+				<coverage>0.05</coverage>
+			</li>
+			<li>
+				<def>RightEar</def>
+				<coverage>0.05</coverage>
+			</li>
+		</value>
+	</Operation>
+
+
+</Patch>
