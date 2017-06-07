@@ -88,6 +88,75 @@
 	</RecipeDef>
 
 
+	<RecipeDef ParentName="SurgeryFleshAnimal">
+		<defName>InstallScytherBladeAnimal</defName>
+		<label>install scyther blade</label>
+		<description>Installs scyther blade.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing scyther blade.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ScytherBlade</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>ScytherBlade</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>Tail</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>ScytherBlade</addsHediff>
+		<recipeUsers>
+			<li>Alphabeaver</li>
+			<li>Cassowary</li>
+			<li>Cat</li>
+			<li>Chicken</li>
+			<li>Chinchilla</li>
+			<li>Cougar</li>
+			<li>Emu</li>
+			<li>FoxArctic</li>
+			<li>FoxFennec</li>
+			<li>FoxRed</li>
+			<li>Hare</li>
+			<li>Husky</li>
+			<li>Iguana</li>
+			<li>LabradorRetriever</li>
+			<li>Lynx</li>
+			<li>Monkey</li>
+			<li>Ostrich</li>
+			<li>Panther</li>
+			<li>Snowhare</li>
+			<li>Squirrel</li>
+			<li>Raccoon</li>
+			<li>Tortoise</li>
+			<li>Turkey</li>
+			<li>Warg</li>
+			<li>WolfArctic</li>
+			<li>WolfTimber</li>
+			<li>YorkshireTerrier</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
 	<RecipeDef Abstract="True" Name="LegBaseAnimal" ParentName="SurgeryFleshAnimal">
 		<appliedOnFixedBodyParts>
 			<li>FrontLeftLeg</li>
@@ -106,6 +175,96 @@
 			<li>RightLeg</li>
 		</appliedOnFixedBodyParts>
 	</RecipeDef>
+
+
+
+	<RecipeDef ParentName="LegBaseAnimal">
+		<defName>InstallPowerClawAnimal</defName>
+		<label>install power claw</label>
+		<description>Installs power claw.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing power claw.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>PowerClaw</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>PowerClaw</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<addsHediff>PowerClaw</addsHediff>
+		<recipeUsers>
+			<li>Alpaca</li>
+			<li>Alphabeaver</li>
+			<li>Boomalope</li>
+			<li>Boomrat</li>
+			<li>Capybara</li>
+			<li>Caribou</li>
+			<li>Cassowary</li>
+			<li>Cat</li>
+			<li>Chicken</li>
+			<li>Chinchilla</li>
+			<li>Cougar</li>
+			<li>Cow</li>
+			<li>Deer</li>
+			<li>Dromedary</li>
+			<li>Elephant</li>
+			<li>Elk</li>
+			<li>Emu</li>
+			<li>FoxArctic</li>
+			<li>FoxFennec</li>
+			<li>FoxRed</li>
+			<li>Gazelle</li>
+			<li>GrizzlyBear</li>
+			<li>Hare</li>
+			<li>Husky</li>
+			<li>Ibex</li>
+			<li>Iguana</li>
+			<li>LabradorRetriever</li>
+			<li>Lynx</li>
+			<li>Megascarab</li>
+			<li>Megasloth</li>
+			<li>Monkey</li>
+			<li>Muffalo</li>
+			<li>Ostrich</li>
+			<li>Panther</li>
+			<li>Pig</li>
+			<li>PolarBear</li>
+			<li>Raccoon</li>
+			<li>Rat</li>
+			<li>Rhinoceros</li>
+			<li>Snowhare</li>
+			<li>Squirrel</li>
+			<li>Thrumbo</li>
+			<li>Tortoise</li>
+			<li>Turkey</li>
+			<li>Warg</li>
+			<li>WildBoar</li>
+			<li>WolfArctic</li>
+			<li>WolfTimber</li>
+			<li>YorkshireTerrier</li>
+		</recipeUsers>
+	</RecipeDef>
+
 
 
 	<RecipeDef ParentName="LegBaseAnimal">
